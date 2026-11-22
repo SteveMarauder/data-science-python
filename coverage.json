@@ -1,0 +1,170 @@
+[
+  {
+    "chapter": 1,
+    "lessonId": "LDS1-CH01",
+    "pdfStart": 25,
+    "pdfEnd": 30,
+    "sourceSections": 3,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 2,
+    "lessonId": "LDS1-CH02",
+    "pdfStart": 31,
+    "pdfEnd": 48,
+    "sourceSections": 13,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 3,
+    "lessonId": "LDS1-CH03",
+    "pdfStart": 49,
+    "pdfEnd": 72,
+    "sourceSections": 14,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 4,
+    "lessonId": "LDS1-CH04",
+    "pdfStart": 73,
+    "pdfEnd": 84,
+    "sourceSections": 6,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 5,
+    "lessonId": "LDS1-CH05",
+    "pdfStart": 85,
+    "pdfEnd": 98,
+    "sourceSections": 5,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 6,
+    "lessonId": "LDS1-CH06",
+    "pdfStart": 101,
+    "pdfEnd": 136,
+    "sourceSections": 24,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 7,
+    "lessonId": "LDS1-CH07",
+    "pdfStart": 137,
+    "pdfEnd": 158,
+    "sourceSections": 19,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 8,
+    "lessonId": "LDS1-CH08",
+    "pdfStart": 161,
+    "pdfEnd": 184,
+    "sourceSections": 15,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 9,
+    "lessonId": "LDS1-CH09",
+    "pdfStart": 185,
+    "pdfEnd": 216,
+    "sourceSections": 20,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 10,
+    "lessonId": "LDS1-CH10",
+    "pdfStart": 217,
+    "pdfEnd": 256,
+    "sourceSections": 19,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 11,
+    "lessonId": "LDS1-CH11",
+    "pdfStart": 257,
+    "pdfEnd": 302,
+    "sourceSections": 34,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 12,
+    "lessonId": "LDS1-CH12",
+    "pdfStart": 303,
+    "pdfEnd": 334,
+    "sourceSections": 16,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 13,
+    "lessonId": "LDS1-CH13",
+    "pdfStart": 337,
+    "pdfEnd": 356,
+    "sourceSections": 16,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 14,
+    "lessonId": "LDS1-CH14",
+    "pdfStart": 357,
+    "pdfEnd": 386,
+    "sourceSections": 9,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 15,
+    "lessonId": "LDS1-CH15",
+    "pdfStart": 389,
+    "pdfEnd": 430,
+    "sourceSections": 13,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 16,
+    "lessonId": "LDS1-CH16",
+    "pdfStart": 431,
+    "pdfEnd": 452,
+    "sourceSections": 7,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 17,
+    "lessonId": "LDS1-CH17",
+    "pdfStart": 453,
+    "pdfEnd": 492,
+    "sourceSections": 16,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 18,
+    "lessonId": "LDS1-CH18",
+    "pdfStart": 493,
+    "pdfEnd": 514,
+    "sourceSections": 10,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 19,
+    "lessonId": "LDS1-CH19",
+    "pdfStart": 517,
+    "pdfEnd": 538,
+    "sourceSections": 13,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 20,
+    "lessonId": "LDS1-CH20",
+    "pdfStart": 539,
+    "pdfEnd": 550,
+    "sourceSections": 8,
+    "coverage": "one independent overview, not full translation"
+  },
+  {
+    "chapter": 21,
+    "lessonId": "LDS1-CH21",
+    "pdfStart": 551,
+    "pdfEnd": 572,
+    "sourceSections": 11,
+    "coverage": "one independent overview, not full translation"
+  }
+]

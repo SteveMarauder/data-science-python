@@ -1,0 +1,5 @@
+Source book: Learning Data Science, first edition (2023), Sam Lau, Joseph Gonzalez, Deborah Nolan. Published by O’Reilly Media. ISBN 9781098113001. Copyright remains with its respective owners. The PDF and full source text are not distributed in this repository.
+
+Independent teaching additions: bilingual chapter guides, synthetic-data Python examples, concept checks, and diagrams created for this website are licensed under Creative Commons Attribution 4.0 (https://creativecommons.org/licenses/by/4.0/). Attribute “Data Science Notes” and indicate modifications. These materials are not an official book translation or author-endorsed publication.
+
+Template code: Scientific Learning Site / Bayes Notes, MIT. See LICENSE. Vendor packages retain their respective licenses in vendor/.

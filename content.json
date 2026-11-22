@@ -1,0 +1,4375 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "book": {
+    "title": "Learning Data Science",
+    "subtitle": "Data Wrangling, Exploration, Visualization, and Modeling with Python",
+    "authors": [
+      "Sam Lau",
+      "Joseph Gonzalez",
+      "Deborah Nolan"
+    ],
+    "edition": 1,
+    "year": 2023,
+    "publisher": "O’Reilly Media",
+    "isbn": "9781098113001",
+    "url": "https://learningds.org/",
+    "pdfOffset": 22,
+    "pdfPages": 597
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "titleZh": "資料科學生命週期",
+      "titleEn": "The Data Science Lifecycle",
+      "printStart": 3,
+      "printEnd": 8,
+      "sectionIds": [
+        "LDS1-CH01"
+      ]
+    },
+    {
+      "id": 2,
+      "titleZh": "問題與資料範圍",
+      "titleEn": "Questions and Data Scope",
+      "printStart": 9,
+      "printEnd": 26,
+      "sectionIds": [
+        "LDS1-CH02"
+      ]
+    },
+    {
+      "id": 3,
+      "titleZh": "模擬與資料設計",
+      "titleEn": "Simulation and Data Design",
+      "printStart": 27,
+      "printEnd": 50,
+      "sectionIds": [
+        "LDS1-CH03"
+      ]
+    },
+    {
+      "id": 4,
+      "titleZh": "摘要統計與建模",
+      "titleEn": "Modeling with Summary Statistics",
+      "printStart": 51,
+      "printEnd": 62,
+      "sectionIds": [
+        "LDS1-CH04"
+      ]
+    },
+    {
+      "id": 5,
+      "titleZh": "案例：公車為何總是遲到",
+      "titleEn": "Case Study: Why Is My Bus Always Late?",
+      "printStart": 63,
+      "printEnd": 76,
+      "sectionIds": [
+        "LDS1-CH05"
+      ]
+    },
+    {
+      "id": 6,
+      "titleZh": "使用 pandas 處理資料表",
+      "titleEn": "Working with Dataframes Using pandas",
+      "printStart": 79,
+      "printEnd": 114,
+      "sectionIds": [
+        "LDS1-CH06"
+      ]
+    },
+    {
+      "id": 7,
+      "titleZh": "使用 SQL 處理關聯",
+      "titleEn": "Working with Relations Using SQL",
+      "printStart": 115,
+      "printEnd": 136,
+      "sectionIds": [
+        "LDS1-CH07"
+      ]
+    },
+    {
+      "id": 8,
+      "titleZh": "整理檔案",
+      "titleEn": "Wrangling Files",
+      "printStart": 139,
+      "printEnd": 162,
+      "sectionIds": [
+        "LDS1-CH08"
+      ]
+    },
+    {
+      "id": 9,
+      "titleZh": "整理 DataFrame",
+      "titleEn": "Wrangling Dataframes",
+      "printStart": 163,
+      "printEnd": 194,
+      "sectionIds": [
+        "LDS1-CH09"
+      ]
+    },
+    {
+      "id": 10,
+      "titleZh": "探索式資料分析",
+      "titleEn": "Exploratory Data Analysis",
+      "printStart": 195,
+      "printEnd": 234,
+      "sectionIds": [
+        "LDS1-CH10"
+      ]
+    },
+    {
+      "id": 11,
+      "titleZh": "資料視覺化",
+      "titleEn": "Data Visualization",
+      "printStart": 235,
+      "printEnd": 280,
+      "sectionIds": [
+        "LDS1-CH11"
+      ]
+    },
+    {
+      "id": 12,
+      "titleZh": "案例：空氣品質量測",
+      "titleEn": "Case Study: How Accurate Are Air Quality Measurements?",
+      "printStart": 281,
+      "printEnd": 312,
+      "sectionIds": [
+        "LDS1-CH12"
+      ]
+    },
+    {
+      "id": 13,
+      "titleZh": "文字資料",
+      "titleEn": "Working with Text",
+      "printStart": 315,
+      "printEnd": 334,
+      "sectionIds": [
+        "LDS1-CH13"
+      ]
+    },
+    {
+      "id": 14,
+      "titleZh": "資料交換",
+      "titleEn": "Data Exchange",
+      "printStart": 335,
+      "printEnd": 364,
+      "sectionIds": [
+        "LDS1-CH14"
+      ]
+    },
+    {
+      "id": 15,
+      "titleZh": "線性模型",
+      "titleEn": "Linear Models",
+      "printStart": 367,
+      "printEnd": 408,
+      "sectionIds": [
+        "LDS1-CH15"
+      ]
+    },
+    {
+      "id": 16,
+      "titleZh": "模型選擇",
+      "titleEn": "Model Selection",
+      "printStart": 409,
+      "printEnd": 430,
+      "sectionIds": [
+        "LDS1-CH16"
+      ]
+    },
+    {
+      "id": 17,
+      "titleZh": "推論與預測理論",
+      "titleEn": "Theory for Inference and Prediction",
+      "printStart": 431,
+      "printEnd": 470,
+      "sectionIds": [
+        "LDS1-CH17"
+      ]
+    },
+    {
+      "id": 18,
+      "titleZh": "案例：如何估計驢的體重",
+      "titleEn": "Case Study: How to Weigh a Donkey",
+      "printStart": 471,
+      "printEnd": 492,
+      "sectionIds": [
+        "LDS1-CH18"
+      ]
+    },
+    {
+      "id": 19,
+      "titleZh": "分類",
+      "titleEn": "Classification",
+      "printStart": 495,
+      "printEnd": 516,
+      "sectionIds": [
+        "LDS1-CH19"
+      ]
+    },
+    {
+      "id": 20,
+      "titleZh": "數值最佳化",
+      "titleEn": "Numerical Optimization",
+      "printStart": 517,
+      "printEnd": 528,
+      "sectionIds": [
+        "LDS1-CH20"
+      ]
+    },
+    {
+      "id": 21,
+      "titleZh": "案例：偵測假新聞",
+      "titleEn": "Case Study: Detecting Fake News",
+      "printStart": 529,
+      "printEnd": 550,
+      "sectionIds": [
+        "LDS1-CH21"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "LDS1-CH01",
+      "chapter": 1,
+      "titleZh": "從問題走到可用的結論",
+      "titleEn": "Start with a question, return with evidence",
+      "kind": "guide",
+      "printPage": 3,
+      "pdfPage": 25,
+      "printEnd": 8,
+      "pdfEnd": 30,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "資料科學不是先挑模型。先把「想改善什麼」寫成能觀測、能比較的問題，再決定需要哪些資料。整理、探索、建模與解讀會互相回饋；發現資料不合適時，回頭修正問題是正常的一步。",
+          "en": "Data science begins with a measurable question. Collection, cleaning, exploration, modeling, and interpretation feed back into one another. Discovering unsuitable data is a reason to revisit the question."
+        },
+        {
+          "id": "explanation",
+          "zh": "把分析分成四項產出：問題與母體、資料與限制、方法與評估、結論與行動。每項都要留下可追溯的假設。模型的分數只是其中一項證據，還要解釋結果適用於誰、何時會失效。",
+          "en": "Record the question and population, the data and limitations, the method and evaluation, and the conclusion and action. A model score is one piece of evidence; explain who the result applies to and where it may fail."
+        }
+      ],
+      "example": {
+        "zh": "想改善公車體驗，先區分「班次是否準時」與「乘客要等多久」。兩者的觀測單位與需要的資料不同。",
+        "en": "Bus punctuality and passenger waiting time require different observational units and data."
+      },
+      "code": "stages = ['question', 'collect', 'wrangle', 'explore', 'model', 'interpret']\nfor step, stage in enumerate(stages, 1):\n    print(step, stage)",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "發現資料無法回答原問題時，下一步應該是？",
+            "en": "What should you do when data cannot answer the original question?"
+          },
+          "options": [
+            {
+              "id": "c",
+              "zh": "把不符合的觀測刪掉",
+              "en": "Delete inconvenient observations"
+            },
+            {
+              "id": "a",
+              "zh": "重新檢查問題與資料範圍",
+              "en": "Revisit the question and scope"
+            },
+            {
+              "id": "b",
+              "zh": "直接換更複雜的模型",
+              "en": "Use a more complex model"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "生命週期允許回頭修正；複雜模型不能補救問題與資料的錯配。",
+            "en": "The lifecycle is iterative. Model complexity cannot fix a mismatch between the question and data."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "分析開始前最適合留下哪份紀錄？",
+            "en": "What should be recorded at the start?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "zh": "問題、對象與可觀測結果",
+              "en": "Question, population, and observable outcome"
+            },
+            {
+              "id": "b",
+              "zh": "先選最複雜模型",
+              "en": "Choose the most complex model"
+            },
+            {
+              "id": "c",
+              "zh": "只記最後的分數",
+              "en": "Only the final score"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "先定義要回答的問題，方法才有判斷依據。",
+            "en": "Define the question so the method has a purpose."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH01-TOC01",
+          "level": 1,
+          "title": "The Stages of the Lifecycle",
+          "pdfPage": 25,
+          "printPage": 3
+        },
+        {
+          "id": "LDS1-CH01-TOC02",
+          "level": 1,
+          "title": "Examples of the Lifecycle",
+          "pdfPage": 28,
+          "printPage": 6
+        },
+        {
+          "id": "LDS1-CH01-TOC03",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 29,
+          "printPage": 7
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH02",
+      "chapter": 2,
+      "titleZh": "資料多，不代表涵蓋對的人",
+      "titleEn": "Coverage comes before size",
+      "kind": "guide",
+      "printPage": 9,
+      "pdfPage": 31,
+      "printEnd": 26,
+      "pdfEnd": 48,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "目標母體是你想了解的對象；抽樣框是實際可能被抽到的對象；樣本則是最後觀測到的人或物。三者不一致時，大量樣本仍可能系統性偏離目標。",
+          "en": "The target population is who you want to understand, the sampling frame is who can be selected, and the sample is who is observed. A large sample can still systematically miss the target."
+        },
+        {
+          "id": "explanation",
+          "zh": "偏差描述系統性偏離，變異描述重複抽樣的波動。增加樣本量通常降低抽樣波動，卻不自動消除涵蓋偏差、未回覆偏差或測量偏差。先畫清楚誰會進入資料，再討論估計精度。",
+          "en": "Bias is systematic error; variation is fluctuation across repeated samples. Larger samples often reduce sampling variation but do not automatically remove coverage, nonresponse, or measurement bias."
+        }
+      ],
+      "example": {
+        "zh": "只在手機 App 問卷調查全市通勤者，沒有使用該 App 的人就無法進入抽樣框。",
+        "en": "An app survey of city commuters excludes commuters who do not use the app."
+      },
+      "code": "target = {'A', 'B', 'C', 'D', 'E'}\nframe = {'A', 'B', 'C'}\nprint('uncovered:', sorted(target - frame))\nprint('frame coverage:', len(frame & target) / len(target))",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "把有涵蓋偏差的樣本增加十倍，能保證什麼？",
+            "en": "What does making a biased sample ten times larger guarantee?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "zh": "不能保證偏差消失",
+              "en": "No guarantee that bias disappears"
+            },
+            {
+              "id": "b",
+              "zh": "一定代表全部母體",
+              "en": "Full population representation"
+            },
+            {
+              "id": "c",
+              "zh": "測量誤差變成零",
+              "en": "Zero measurement error"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "增加觀測數不會自動納入原本進不了抽樣框的對象。",
+            "en": "More observations do not automatically include people excluded from the frame."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "比較重複抽樣結果的波動，主要是在看？",
+            "en": "What do fluctuations across repeated samples describe?"
+          },
+          "options": [
+            {
+              "id": "b",
+              "zh": "所有測量偏差",
+              "en": "All measurement bias"
+            },
+            {
+              "id": "c",
+              "zh": "資料授權",
+              "en": "Data licensing"
+            },
+            {
+              "id": "a",
+              "zh": "變異",
+              "en": "Variation"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "波動是變異；系統性偏離則是偏差。",
+            "en": "Fluctuation is variation; systematic departure is bias."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH02-TOC01",
+          "level": 1,
+          "title": "Big Data and New Opportunities",
+          "pdfPage": 32,
+          "printPage": 10
+        },
+        {
+          "id": "LDS1-CH02-TOC02",
+          "level": 2,
+          "title": "Example: Google Flu Trends",
+          "pdfPage": 32,
+          "printPage": 10
+        },
+        {
+          "id": "LDS1-CH02-TOC03",
+          "level": 1,
+          "title": "Target Population, Access Frame, and Sample",
+          "pdfPage": 34,
+          "printPage": 12
+        },
+        {
+          "id": "LDS1-CH02-TOC04",
+          "level": 2,
+          "title": "Example: What Makes Members of an Online Community Active?",
+          "pdfPage": 36,
+          "printPage": 14
+        },
+        {
+          "id": "LDS1-CH02-TOC05",
+          "level": 2,
+          "title": "Example: Who Will Win the Election?",
+          "pdfPage": 36,
+          "printPage": 14
+        },
+        {
+          "id": "LDS1-CH02-TOC06",
+          "level": 2,
+          "title": "Example: How Do Environmental Hazards Relate to an Individual’s Health?",
+          "pdfPage": 37,
+          "printPage": 15
+        },
+        {
+          "id": "LDS1-CH02-TOC07",
+          "level": 1,
+          "title": "Instruments and Protocols",
+          "pdfPage": 38,
+          "printPage": 16
+        },
+        {
+          "id": "LDS1-CH02-TOC08",
+          "level": 1,
+          "title": "Measuring Natural Phenomena",
+          "pdfPage": 39,
+          "printPage": 17
+        },
+        {
+          "id": "LDS1-CH02-TOC09",
+          "level": 2,
+          "title": "Example: What Is the Level of CO2 in the Air?",
+          "pdfPage": 40,
+          "printPage": 18
+        },
+        {
+          "id": "LDS1-CH02-TOC10",
+          "level": 1,
+          "title": "Accuracy",
+          "pdfPage": 41,
+          "printPage": 19
+        },
+        {
+          "id": "LDS1-CH02-TOC11",
+          "level": 2,
+          "title": "Types of Bias",
+          "pdfPage": 42,
+          "printPage": 20
+        },
+        {
+          "id": "LDS1-CH02-TOC12",
+          "level": 2,
+          "title": "Types of Variation",
+          "pdfPage": 44,
+          "printPage": 22
+        },
+        {
+          "id": "LDS1-CH02-TOC13",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 46,
+          "printPage": 24
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH03",
+      "chapter": 3,
+      "titleZh": "用重複抽樣看見不確定性",
+      "titleEn": "Make uncertainty visible through simulation",
+      "kind": "guide",
+      "printPage": 27,
+      "pdfPage": 49,
+      "printEnd": 50,
+      "pdfEnd": 72,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "一個樣本只給你一次結果。模擬在明確假設下反覆產生樣本，讓你觀察統計量如何波動。先說明甕中的球代表什麼、是否放回，以及每次抽多少個。",
+          "en": "One sample gives one result. Simulation repeatedly generates samples under stated assumptions so you can inspect how a statistic varies. Specify the population, replacement rule, and sample size."
+        },
+        {
+          "id": "explanation",
+          "zh": "隨機抽樣支援從樣本推廣到母體；隨機分派支援比較處理的因果效果。兩種隨機化回答不同問題。模擬結果取決於資料生成假設，不能單憑逼真的圖形證明假設正確。",
+          "en": "Random sampling supports population generalization; random assignment supports causal treatment comparisons. Simulated results depend on the generating assumptions and do not validate those assumptions by themselves."
+        }
+      ],
+      "example": {
+        "zh": "用固定亂數種子，從 40% 為 1 的示例母體重複抽樣，觀察樣本比例。",
+        "en": "With a fixed seed, repeatedly sample from a toy population with 40% ones."
+      },
+      "code": "import numpy as np\nrng = np.random.default_rng(42)\npopulation = np.array([1] * 40 + [0] * 60)\nmeans = [rng.choice(population, 20, replace=False).mean() for _ in range(1000)]\nprint(round(float(np.mean(means)), 3))",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "哪一項設計主要支援因果效果的比較？",
+            "en": "Which design primarily supports causal treatment comparisons?"
+          },
+          "options": [
+            {
+              "id": "b",
+              "zh": "只擴大方便樣本",
+              "en": "A larger convenience sample"
+            },
+            {
+              "id": "c",
+              "zh": "依結果挑選受試者",
+              "en": "Selection based on outcomes"
+            },
+            {
+              "id": "a",
+              "zh": "隨機分派處理",
+              "en": "Random treatment assignment"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "隨機分派使處理組別的比較具有因果解釋的基礎，但仍需檢查執行與分析假設。",
+            "en": "Random assignment provides a basis for causal comparison, subject to execution and analysis assumptions."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "為了重現亂數模擬，應記錄什麼？",
+            "en": "What helps reproduce a simulation?"
+          },
+          "options": [
+            {
+              "id": "c",
+              "zh": "刪掉模型假設",
+              "en": "Remove assumptions"
+            },
+            {
+              "id": "a",
+              "zh": "種子、模型與抽樣規則",
+              "en": "Seed, model, and sampling rules"
+            },
+            {
+              "id": "b",
+              "zh": "只有圖表顏色",
+              "en": "Only chart colors"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "種子只有在相同生成模型與程式條件下才有意義。",
+            "en": "A seed works in conjunction with a specified generating model and implementation."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH03-TOC01",
+          "level": 1,
+          "title": "The Urn Model",
+          "pdfPage": 50,
+          "printPage": 28
+        },
+        {
+          "id": "LDS1-CH03-TOC02",
+          "level": 2,
+          "title": "Sampling Designs",
+          "pdfPage": 52,
+          "printPage": 30
+        },
+        {
+          "id": "LDS1-CH03-TOC03",
+          "level": 2,
+          "title": "Sampling Distribution of a Statistic",
+          "pdfPage": 54,
+          "printPage": 32
+        },
+        {
+          "id": "LDS1-CH03-TOC04",
+          "level": 2,
+          "title": "Simulating the Sampling Distribution",
+          "pdfPage": 55,
+          "printPage": 33
+        },
+        {
+          "id": "LDS1-CH03-TOC05",
+          "level": 2,
+          "title": "Simulation with the Hypergeometric Distribution",
+          "pdfPage": 57,
+          "printPage": 35
+        },
+        {
+          "id": "LDS1-CH03-TOC06",
+          "level": 1,
+          "title": "Example: Simulating Election Poll Bias and Variance",
+          "pdfPage": 58,
+          "printPage": 36
+        },
+        {
+          "id": "LDS1-CH03-TOC07",
+          "level": 2,
+          "title": "The Pennsylvania Urn Model",
+          "pdfPage": 60,
+          "printPage": 38
+        },
+        {
+          "id": "LDS1-CH03-TOC08",
+          "level": 2,
+          "title": "An Urn Model with Bias",
+          "pdfPage": 62,
+          "printPage": 40
+        },
+        {
+          "id": "LDS1-CH03-TOC09",
+          "level": 2,
+          "title": "Conducting Larger Polls",
+          "pdfPage": 63,
+          "printPage": 41
+        },
+        {
+          "id": "LDS1-CH03-TOC10",
+          "level": 1,
+          "title": "Example: Simulating a Randomized Trial for a Vaccine",
+          "pdfPage": 65,
+          "printPage": 43
+        },
+        {
+          "id": "LDS1-CH03-TOC11",
+          "level": 2,
+          "title": "Scope",
+          "pdfPage": 65,
+          "printPage": 43
+        },
+        {
+          "id": "LDS1-CH03-TOC12",
+          "level": 2,
+          "title": "The Urn Model for Random Assignment",
+          "pdfPage": 66,
+          "printPage": 44
+        },
+        {
+          "id": "LDS1-CH03-TOC13",
+          "level": 1,
+          "title": "Example: Measuring Air Quality",
+          "pdfPage": 68,
+          "printPage": 46
+        },
+        {
+          "id": "LDS1-CH03-TOC14",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 71,
+          "printPage": 49
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH04",
+      "chapter": 4,
+      "titleZh": "平均數與中位數，都是模型選擇",
+      "titleEn": "A summary is a modeling choice",
+      "kind": "guide",
+      "printPage": 51,
+      "pdfPage": 73,
+      "printEnd": 62,
+      "pdfEnd": 84,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "用一個數字代表一群資料，就是常數模型。選平均數或中位數，背後其實是在選「怎樣的誤差比較嚴重」。損失函數把這個偏好寫成可計算的規則。",
+          "en": "Representing data with one number is a constant model. Choosing a mean or median reflects which errors matter. A loss function makes that preference explicit."
+        },
+        {
+          "id": "explanation",
+          "zh": "平方損失對大誤差懲罰較重，樣本平均數使平方誤差總和最小；絕對損失對極端值較不敏感，中位數使絕對誤差總和最小。兩者都是描述工具，不能只憑某個數字宣稱資料常態分布。",
+          "en": "The sample mean minimizes squared error; a median minimizes absolute error. Squared loss penalizes large errors more strongly. Neither summary establishes that the data are normally distributed."
+        }
+      ],
+      "example": {
+        "zh": "示例等待時間為 2、3、4、5、36 分鐘；平均數受最後一筆拉高，中位數仍是 4。",
+        "en": "For toy waits of 2, 3, 4, 5, and 36 minutes, the mean is pulled upward while the median is 4."
+      },
+      "code": "import numpy as np\nx = np.array([2, 3, 4, 5, 36])\nprint('mean:', x.mean(), 'median:', np.median(x))\nfor estimate in [4, 10]:\n    print(estimate, np.mean((x - estimate) ** 2))",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "哪個數字使樣本平方誤差總和最小？",
+            "en": "Which value minimizes sample squared error?"
+          },
+          "options": [
+            {
+              "id": "c",
+              "zh": "一定是零",
+              "en": "Always zero"
+            },
+            {
+              "id": "a",
+              "zh": "樣本平均數",
+              "en": "The sample mean"
+            },
+            {
+              "id": "b",
+              "zh": "樣本最大值",
+              "en": "The sample maximum"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "平方損失下的最佳常數是平均數；改成絕對損失時最佳解是中位數。",
+            "en": "The mean is optimal for squared loss; a median is optimal for absolute loss."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "改用絕對誤差時，最佳常數是？",
+            "en": "Which constant minimizes absolute error?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "zh": "中位數",
+              "en": "A median"
+            },
+            {
+              "id": "b",
+              "zh": "最大值",
+              "en": "The maximum"
+            },
+            {
+              "id": "c",
+              "zh": "變異數",
+              "en": "The variance"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "中位數使絕對偏差總和最小。",
+            "en": "A median minimizes total absolute deviation."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH04-TOC01",
+          "level": 1,
+          "title": "The Constant Model",
+          "pdfPage": 74,
+          "printPage": 52
+        },
+        {
+          "id": "LDS1-CH04-TOC02",
+          "level": 1,
+          "title": "Minimizing Loss",
+          "pdfPage": 76,
+          "printPage": 54
+        },
+        {
+          "id": "LDS1-CH04-TOC03",
+          "level": 2,
+          "title": "Mean Absolute Error",
+          "pdfPage": 77,
+          "printPage": 55
+        },
+        {
+          "id": "LDS1-CH04-TOC04",
+          "level": 2,
+          "title": "Mean Squared Error",
+          "pdfPage": 79,
+          "printPage": 57
+        },
+        {
+          "id": "LDS1-CH04-TOC05",
+          "level": 2,
+          "title": "Choosing Loss Functions",
+          "pdfPage": 81,
+          "printPage": 59
+        },
+        {
+          "id": "LDS1-CH04-TOC06",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 82,
+          "printPage": 60
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH05",
+      "chapter": 5,
+      "titleZh": "乘客看到的班距，有長度偏差",
+      "titleEn": "Passengers experience length-biased gaps",
+      "kind": "guide",
+      "printPage": 63,
+      "pdfPage": 85,
+      "printEnd": 76,
+      "pdfEnd": 98,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "班距平均十 分鐘，不代表隨機到站的乘客平均等五分鐘。長班距佔據比較多的時間，因此隨機到站更容易落在長班距內。觀測單位從班次換成乘客，答案就可能改變。",
+          "en": "An average headway of ten minutes does not imply a five-minute average wait. Long gaps occupy more time, so random arrivals are more likely to land in them."
+        },
+        {
+          "id": "explanation",
+          "zh": "在乘客到站時間獨立、均勻，且班距過程穩定的理想模型中，平均等待時間為 E[H²] / (2E[H])。班距固定才簡化為 H/2。時間戳整理要先確認排序、重複班次、服務日與時區。",
+          "en": "Under stationary headways and independent uniform passenger arrivals, expected waiting time is E[H²]/(2E[H]). It reduces to H/2 only for constant gaps. Check timestamp ordering, duplicates, service days, and time zones."
+        }
+      ],
+      "example": {
+        "zh": "班距輪流為 5 與 15 分鐘，平均班距 10；理想模型的平均等待卻是 6.25 分鐘。",
+        "en": "Alternating 5- and 15-minute headways have a mean of 10 but an idealized mean wait of 6.25 minutes."
+      },
+      "code": "import numpy as np\nheadways = np.array([5., 15.])\nprint('mean headway:', headways.mean())\nprint('expected wait:', np.mean(headways ** 2) / (2 * headways.mean()))",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "為什麼班距不穩定可能增加乘客平均等待？",
+            "en": "Why can irregular headways increase expected passenger waiting?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "zh": "隨機到站較常落在長班距",
+              "en": "Random arrivals overrepresent long gaps"
+            },
+            {
+              "id": "b",
+              "zh": "乘客只會搭短班距的車",
+              "en": "Passengers only use short gaps"
+            },
+            {
+              "id": "c",
+              "zh": "平均班距一定增加",
+              "en": "Mean headway must increase"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "即使平均班距相同，班距變異會增加二次動差，進而提高此理想模型下的平均等待。",
+            "en": "With the same mean, greater headway variance raises the second moment and the modeled average wait."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "班距固定 10 分鐘且乘客均勻到站，平均等待？",
+            "en": "For constant 10-minute gaps and uniform arrivals, what is mean waiting time?"
+          },
+          "options": [
+            {
+              "id": "b",
+              "zh": "10 分鐘",
+              "en": "10 minutes"
+            },
+            {
+              "id": "c",
+              "zh": "20 分鐘",
+              "en": "20 minutes"
+            },
+            {
+              "id": "a",
+              "zh": "5 分鐘",
+              "en": "5 minutes"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "理想假設下，固定班距的平均等待為班距的一半。",
+            "en": "Under the stated assumptions, mean waiting is half the fixed headway."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH05-TOC01",
+          "level": 1,
+          "title": "Question and Scope",
+          "pdfPage": 86,
+          "printPage": 64
+        },
+        {
+          "id": "LDS1-CH05-TOC02",
+          "level": 1,
+          "title": "Data Wrangling",
+          "pdfPage": 86,
+          "printPage": 64
+        },
+        {
+          "id": "LDS1-CH05-TOC03",
+          "level": 1,
+          "title": "Exploring Bus Times",
+          "pdfPage": 89,
+          "printPage": 67
+        },
+        {
+          "id": "LDS1-CH05-TOC04",
+          "level": 1,
+          "title": "Modeling Wait Times",
+          "pdfPage": 92,
+          "printPage": 70
+        },
+        {
+          "id": "LDS1-CH05-TOC05",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 96,
+          "printPage": 74
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH06",
+      "chapter": 6,
+      "titleZh": "先說清楚每一列代表什麼",
+      "titleEn": "Define the row before manipulating the table",
+      "kind": "guide",
+      "printPage": 79,
+      "pdfPage": 101,
+      "printEnd": 114,
+      "pdfEnd": 136,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "DataFrame 同時有欄位名稱、列標籤與資料型別。loc 依標籤，iloc 依位置。篩選、群組彙總與合併之前，先確認每列的觀測單位與鍵是否唯一。",
+          "en": "A DataFrame has named columns, row labels, and data types. loc selects labels; iloc selects positions. Before filtering, grouping, or merging, identify the observational unit and key uniqueness."
+        },
+        {
+          "id": "explanation",
+          "zh": "groupby 會把資料的粒度改成群組；merge 則依鍵配對兩邊的列。兩邊都有重複鍵會形成多對多配對，列數可能膨脹。用 validate 檢查預期關係，並比較合併前後的筆數與缺漏。",
+          "en": "Grouping changes granularity. Merging matches rows on keys; duplicate keys on both sides can multiply rows. Use validate to enforce expected relationships and inspect row counts and missing matches."
+        }
+      ],
+      "example": {
+        "zh": "示例以城市分組，計算平均旅行時間；這是城市層級的摘要，不再是一趟旅行。",
+        "en": "Grouping toy trips by city produces city-level summaries rather than trip-level rows."
+      },
+      "code": "import pandas as pd\ntrips = pd.DataFrame({'city': ['Taipei', 'Taipei', 'Tainan'], 'minutes': [20, 30, 15]})\nsummary = trips.groupby('city', as_index=False).agg(mean_minutes=('minutes', 'mean'))\nprint(summary.to_string(index=False))",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "兩表的合併鍵在兩邊都重複，最需要注意什麼？",
+            "en": "What is a risk when both tables contain duplicate join keys?"
+          },
+          "options": [
+            {
+              "id": "b",
+              "zh": "所有重複鍵會自動刪除",
+              "en": "Automatic removal of duplicate keys"
+            },
+            {
+              "id": "c",
+              "zh": "欄位一定變少",
+              "en": "Fewer columns are guaranteed"
+            },
+            {
+              "id": "a",
+              "zh": "多對多配對使列數膨脹",
+              "en": "Many-to-many row multiplication"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "每個鍵的左列與右列會逐一配對；先確認預期的合併基數。",
+            "en": "All matching left and right rows pair up. Verify the intended join cardinality."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "groupby 城市再取平均後，每列代表？",
+            "en": "After grouping by city and averaging, what does each row represent?"
+          },
+          "options": [
+            {
+              "id": "c",
+              "zh": "一個隨機抽樣框",
+              "en": "A sampling frame"
+            },
+            {
+              "id": "a",
+              "zh": "一個城市",
+              "en": "A city"
+            },
+            {
+              "id": "b",
+              "zh": "一趟原始旅行",
+              "en": "An original trip"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "彙總已把觀測粒度改為城市。",
+            "en": "Aggregation changes the row granularity to cities."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH06-TOC01",
+          "level": 1,
+          "title": "Subsetting",
+          "pdfPage": 102,
+          "printPage": 80
+        },
+        {
+          "id": "LDS1-CH06-TOC02",
+          "level": 2,
+          "title": "Data Scope and Question",
+          "pdfPage": 102,
+          "printPage": 80
+        },
+        {
+          "id": "LDS1-CH06-TOC03",
+          "level": 2,
+          "title": "Dataframes and Indices",
+          "pdfPage": 103,
+          "printPage": 81
+        },
+        {
+          "id": "LDS1-CH06-TOC04",
+          "level": 2,
+          "title": "Slicing",
+          "pdfPage": 105,
+          "printPage": 83
+        },
+        {
+          "id": "LDS1-CH06-TOC05",
+          "level": 2,
+          "title": "Filtering Rows",
+          "pdfPage": 108,
+          "printPage": 86
+        },
+        {
+          "id": "LDS1-CH06-TOC06",
+          "level": 2,
+          "title": "Example: How Recently Has Luna Become a Popular Name?",
+          "pdfPage": 111,
+          "printPage": 89
+        },
+        {
+          "id": "LDS1-CH06-TOC07",
+          "level": 1,
+          "title": "Aggregating",
+          "pdfPage": 113,
+          "printPage": 91
+        },
+        {
+          "id": "LDS1-CH06-TOC08",
+          "level": 2,
+          "title": "Basic Group-Aggregate",
+          "pdfPage": 114,
+          "printPage": 92
+        },
+        {
+          "id": "LDS1-CH06-TOC09",
+          "level": 2,
+          "title": "Grouping on Multiple Columns",
+          "pdfPage": 117,
+          "printPage": 95
+        },
+        {
+          "id": "LDS1-CH06-TOC10",
+          "level": 2,
+          "title": "Custom Aggregation Functions",
+          "pdfPage": 118,
+          "printPage": 96
+        },
+        {
+          "id": "LDS1-CH06-TOC11",
+          "level": 2,
+          "title": "Pivoting",
+          "pdfPage": 120,
+          "printPage": 98
+        },
+        {
+          "id": "LDS1-CH06-TOC12",
+          "level": 1,
+          "title": "Joining",
+          "pdfPage": 122,
+          "printPage": 100
+        },
+        {
+          "id": "LDS1-CH06-TOC13",
+          "level": 2,
+          "title": "Inner Joins",
+          "pdfPage": 123,
+          "printPage": 101
+        },
+        {
+          "id": "LDS1-CH06-TOC14",
+          "level": 2,
+          "title": "Left, Right, and Outer Joins",
+          "pdfPage": 125,
+          "printPage": 103
+        },
+        {
+          "id": "LDS1-CH06-TOC15",
+          "level": 2,
+          "title": "Example: Popularity of NYT Name Categories",
+          "pdfPage": 127,
+          "printPage": 105
+        },
+        {
+          "id": "LDS1-CH06-TOC16",
+          "level": 1,
+          "title": "Transforming",
+          "pdfPage": 129,
+          "printPage": 107
+        },
+        {
+          "id": "LDS1-CH06-TOC17",
+          "level": 2,
+          "title": "Apply",
+          "pdfPage": 129,
+          "printPage": 107
+        },
+        {
+          "id": "LDS1-CH06-TOC18",
+          "level": 2,
+          "title": "Example: Popularity of “L” Names",
+          "pdfPage": 131,
+          "printPage": 109
+        },
+        {
+          "id": "LDS1-CH06-TOC19",
+          "level": 2,
+          "title": "The Price of Apply",
+          "pdfPage": 132,
+          "printPage": 110
+        },
+        {
+          "id": "LDS1-CH06-TOC20",
+          "level": 1,
+          "title": "How Are Dataframes Different from Other Data Representations?",
+          "pdfPage": 133,
+          "printPage": 111
+        },
+        {
+          "id": "LDS1-CH06-TOC21",
+          "level": 2,
+          "title": "Dataframes and Spreadsheets",
+          "pdfPage": 133,
+          "printPage": 111
+        },
+        {
+          "id": "LDS1-CH06-TOC22",
+          "level": 2,
+          "title": "Dataframes and Matrices",
+          "pdfPage": 134,
+          "printPage": 112
+        },
+        {
+          "id": "LDS1-CH06-TOC23",
+          "level": 2,
+          "title": "Dataframes and Relations",
+          "pdfPage": 135,
+          "printPage": 113
+        },
+        {
+          "id": "LDS1-CH06-TOC24",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 135,
+          "printPage": 113
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH07",
+      "chapter": 7,
+      "titleZh": "把資料操作寫成可檢查的查詢",
+      "titleEn": "Write queries that express the data question",
+      "kind": "guide",
+      "printPage": 115,
+      "pdfPage": 137,
+      "printEnd": 136,
+      "pdfEnd": 158,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "SQL 用宣告式查詢描述想要的結果。SELECT 決定欄位，WHERE 篩選原始列，GROUP BY 建立群組，HAVING 篩選群組結果。輸出若需要順序，必須明確寫 ORDER BY。",
+          "en": "SQL declaratively describes the desired result. SELECT chooses columns, WHERE filters rows, GROUP BY forms groups, and HAVING filters aggregated groups. Use ORDER BY when order matters."
+        },
+        {
+          "id": "explanation",
+          "zh": "LEFT JOIN 保留左表的列，但在 WHERE 對右表欄位加上不接受 NULL 的條件，可能又把未配對列排除。COUNT(*) 計算列數，COUNT(column) 不計該欄位的 NULL。",
+          "en": "A LEFT JOIN retains left rows, but a WHERE predicate rejecting right-side NULL values can remove unmatched rows. COUNT(*) counts rows; COUNT(column) excludes NULL values in that column."
+        }
+      ],
+      "example": {
+        "zh": "用 Python 內建 SQLite 建立示例資料，取得每個城市的平均旅行時間。",
+        "en": "Use Python’s built-in SQLite to summarize toy trip times by city."
+      },
+      "code": "import sqlite3\ncon = sqlite3.connect(':memory:')\ncon.execute('CREATE TABLE trips (city TEXT, minutes REAL)')\ncon.executemany('INSERT INTO trips VALUES (?, ?)', [('Taipei', 20), ('Taipei', 30), ('Tainan', 15)])\nprint(con.execute('SELECT city, AVG(minutes) FROM trips GROUP BY city ORDER BY city').fetchall())\ncon.close()",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "哪個子句用來篩選彙總後的群組？",
+            "en": "Which clause filters aggregated groups?"
+          },
+          "options": [
+            {
+              "id": "c",
+              "zh": "ORDER BY",
+              "en": "ORDER BY"
+            },
+            {
+              "id": "a",
+              "zh": "HAVING",
+              "en": "HAVING"
+            },
+            {
+              "id": "b",
+              "zh": "WHERE",
+              "en": "WHERE"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "WHERE 在彙總之前篩選列；HAVING 對群組彙總結果加條件。",
+            "en": "WHERE filters rows before aggregation; HAVING filters groups after aggregation."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "SQL 輸出要有確定順序，應使用？",
+            "en": "Which clause specifies output order?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "zh": "ORDER BY",
+              "en": "ORDER BY"
+            },
+            {
+              "id": "b",
+              "zh": "只靠資料原始順序",
+              "en": "Original storage order"
+            },
+            {
+              "id": "c",
+              "zh": "HAVING",
+              "en": "HAVING"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "關聯式查詢未指定排序時，不保證輸出順序。",
+            "en": "Output ordering is not guaranteed without an explicit ordering clause."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH07-TOC01",
+          "level": 1,
+          "title": "Subsetting",
+          "pdfPage": 137,
+          "printPage": 115
+        },
+        {
+          "id": "LDS1-CH07-TOC02",
+          "level": 2,
+          "title": "SQL Basics: SELECT and FROM",
+          "pdfPage": 138,
+          "printPage": 116
+        },
+        {
+          "id": "LDS1-CH07-TOC03",
+          "level": 2,
+          "title": "What’s a Relation?",
+          "pdfPage": 139,
+          "printPage": 117
+        },
+        {
+          "id": "LDS1-CH07-TOC04",
+          "level": 2,
+          "title": "Slicing",
+          "pdfPage": 140,
+          "printPage": 118
+        },
+        {
+          "id": "LDS1-CH07-TOC05",
+          "level": 2,
+          "title": "Filtering Rows",
+          "pdfPage": 141,
+          "printPage": 119
+        },
+        {
+          "id": "LDS1-CH07-TOC06",
+          "level": 2,
+          "title": "Example: How Recently Has Luna Become a Popular Name?",
+          "pdfPage": 143,
+          "printPage": 121
+        },
+        {
+          "id": "LDS1-CH07-TOC07",
+          "level": 1,
+          "title": "Aggregating",
+          "pdfPage": 144,
+          "printPage": 122
+        },
+        {
+          "id": "LDS1-CH07-TOC08",
+          "level": 2,
+          "title": "Basic Group-Aggregate Using GROUP BY",
+          "pdfPage": 145,
+          "printPage": 123
+        },
+        {
+          "id": "LDS1-CH07-TOC09",
+          "level": 2,
+          "title": "Grouping on Multiple Columns",
+          "pdfPage": 146,
+          "printPage": 124
+        },
+        {
+          "id": "LDS1-CH07-TOC10",
+          "level": 2,
+          "title": "Other Aggregation Functions",
+          "pdfPage": 147,
+          "printPage": 125
+        },
+        {
+          "id": "LDS1-CH07-TOC11",
+          "level": 1,
+          "title": "Joining",
+          "pdfPage": 148,
+          "printPage": 126
+        },
+        {
+          "id": "LDS1-CH07-TOC12",
+          "level": 2,
+          "title": "Inner Joins",
+          "pdfPage": 149,
+          "printPage": 127
+        },
+        {
+          "id": "LDS1-CH07-TOC13",
+          "level": 2,
+          "title": "Left and Right Joins",
+          "pdfPage": 151,
+          "printPage": 129
+        },
+        {
+          "id": "LDS1-CH07-TOC14",
+          "level": 2,
+          "title": "Example: Popularity of NYT Name Categories",
+          "pdfPage": 152,
+          "printPage": 130
+        },
+        {
+          "id": "LDS1-CH07-TOC15",
+          "level": 1,
+          "title": "Transforming and Common Table Expressions",
+          "pdfPage": 153,
+          "printPage": 131
+        },
+        {
+          "id": "LDS1-CH07-TOC16",
+          "level": 2,
+          "title": "SQL Functions",
+          "pdfPage": 153,
+          "printPage": 131
+        },
+        {
+          "id": "LDS1-CH07-TOC17",
+          "level": 2,
+          "title": "Multistep Queries Using a WITH Clause",
+          "pdfPage": 156,
+          "printPage": 134
+        },
+        {
+          "id": "LDS1-CH07-TOC18",
+          "level": 2,
+          "title": "Example: Popularity of “L” Names",
+          "pdfPage": 156,
+          "printPage": 134
+        },
+        {
+          "id": "LDS1-CH07-TOC19",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 157,
+          "printPage": 135
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH08",
+      "chapter": 8,
+      "titleZh": "檔案副檔名，不是資料結構的保證",
+      "titleEn": "Inspect the file, not just its extension",
+      "kind": "guide",
+      "printPage": 139,
+      "pdfPage": 161,
+      "printEnd": 162,
+      "pdfEnd": 184,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "讀檔前先了解編碼、分隔符號、欄名、資料型別、缺值符號與壓縮方式。逗號可能出現在引號內；直接用字串 split 切 CSV，容易破壞欄位。",
+          "en": "Before reading a file, inspect encoding, delimiters, headers, types, missing-value markers, and compression. Quoted CSV fields can contain commas, so plain string splitting is unsafe."
+        },
+        {
+          "id": "explanation",
+          "zh": "先讀取少量資料建立結構假設，再用完整資料驗證。保留原始檔與清理程式，避免手動修改來源。巢狀 JSON 的一筆紀錄不一定對應一列，攤平前要決定觀測單位。",
+          "en": "Inspect a small sample, then validate assumptions against the whole file. Preserve raw files and cleaning code. A nested JSON record need not correspond to a single row; define the unit before flattening."
+        }
+      ],
+      "example": {
+        "zh": "以下 CSV 的站名含逗號，標準解析器仍能正確讀取兩欄。",
+        "en": "A standards-aware parser correctly reads a station name containing a comma."
+      },
+      "code": "import csv, io\ntext = 'station,minutes\\n\"Central, East\",12\\nNorth,8\\n'\nrows = list(csv.DictReader(io.StringIO(text)))\nprint(rows)\nassert len(rows[0]) == 2",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "CSV 欄位可能含引號中的逗號，應使用什麼？",
+            "en": "How should you parse a CSV field containing a quoted comma?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "zh": "支援 CSV 規格的解析器",
+              "en": "A CSV-aware parser"
+            },
+            {
+              "id": "b",
+              "zh": "每行直接 split 逗號",
+              "en": "Plain comma splitting"
+            },
+            {
+              "id": "c",
+              "zh": "先刪除所有引號",
+              "en": "Remove every quote first"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "解析器會依引號與逸出規則辨識欄位，直接切字串無法保證正確。",
+            "en": "A parser follows quoting and escape rules; raw splitting does not."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "可重現清理流程應如何處理原始檔？",
+            "en": "How should raw files be handled for reproducible cleaning?"
+          },
+          "options": [
+            {
+              "id": "b",
+              "zh": "直接覆蓋且不留紀錄",
+              "en": "Overwrite without a record"
+            },
+            {
+              "id": "c",
+              "zh": "只保留截圖",
+              "en": "Keep screenshots only"
+            },
+            {
+              "id": "a",
+              "zh": "保留原始檔，另存清理程式",
+              "en": "Preserve raw files and cleaning code"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "原始檔加上轉換程式才能追溯結果。",
+            "en": "Raw files and transformation code support traceability."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH08-TOC01",
+          "level": 1,
+          "title": "Data Source Examples",
+          "pdfPage": 162,
+          "printPage": 140
+        },
+        {
+          "id": "LDS1-CH08-TOC02",
+          "level": 2,
+          "title": "Drug Abuse Warning Network (DAWN) Survey",
+          "pdfPage": 162,
+          "printPage": 140
+        },
+        {
+          "id": "LDS1-CH08-TOC03",
+          "level": 2,
+          "title": "San Francisco Restaurant Food Safety",
+          "pdfPage": 162,
+          "printPage": 140
+        },
+        {
+          "id": "LDS1-CH08-TOC04",
+          "level": 1,
+          "title": "File Formats",
+          "pdfPage": 164,
+          "printPage": 142
+        },
+        {
+          "id": "LDS1-CH08-TOC05",
+          "level": 2,
+          "title": "Delimited Format",
+          "pdfPage": 164,
+          "printPage": 142
+        },
+        {
+          "id": "LDS1-CH08-TOC06",
+          "level": 2,
+          "title": "Fixed-Width Format",
+          "pdfPage": 166,
+          "printPage": 144
+        },
+        {
+          "id": "LDS1-CH08-TOC07",
+          "level": 2,
+          "title": "Hierarchical Formats",
+          "pdfPage": 167,
+          "printPage": 145
+        },
+        {
+          "id": "LDS1-CH08-TOC08",
+          "level": 2,
+          "title": "Loosely Formatted Text",
+          "pdfPage": 167,
+          "printPage": 145
+        },
+        {
+          "id": "LDS1-CH08-TOC09",
+          "level": 1,
+          "title": "File Encoding",
+          "pdfPage": 168,
+          "printPage": 146
+        },
+        {
+          "id": "LDS1-CH08-TOC10",
+          "level": 1,
+          "title": "File Size",
+          "pdfPage": 170,
+          "printPage": 148
+        },
+        {
+          "id": "LDS1-CH08-TOC11",
+          "level": 1,
+          "title": "The Shell and Command-Line Tools",
+          "pdfPage": 173,
+          "printPage": 151
+        },
+        {
+          "id": "LDS1-CH08-TOC12",
+          "level": 1,
+          "title": "Table Shape and Granularity",
+          "pdfPage": 177,
+          "printPage": 155
+        },
+        {
+          "id": "LDS1-CH08-TOC13",
+          "level": 2,
+          "title": "Granularity of Restaurant Inspections and Violations",
+          "pdfPage": 178,
+          "printPage": 156
+        },
+        {
+          "id": "LDS1-CH08-TOC14",
+          "level": 2,
+          "title": "DAWN Survey Shape and Granularity",
+          "pdfPage": 180,
+          "printPage": 158
+        },
+        {
+          "id": "LDS1-CH08-TOC15",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 183,
+          "printPage": 161
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH09",
+      "chapter": 9,
+      "titleZh": "清理是有假設的資料轉換",
+      "titleEn": "Cleaning encodes assumptions",
+      "kind": "guide",
+      "printPage": 163,
+      "pdfPage": 185,
+      "printEnd": 194,
+      "pdfEnd": 216,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "缺值、重複列、型別混用與單位不一致，都需要明確處理規則。先定義合理範圍與一列的唯一鍵，再把檢查寫成程式。刪掉資料也會改變分析對象。",
+          "en": "Missingness, duplicates, mixed types, and inconsistent units require explicit rules. Define valid ranges and unique keys, then encode checks. Deleting rows changes the population being analyzed."
+        },
+        {
+          "id": "explanation",
+          "zh": "寬表與長表服務不同分析工作；melt 與 pivot 會改變欄位和列的角色。缺值不能一律補零：零可能是有意義的實測值。建模時從訓練資料估計補值參數，避免測試資訊流入。",
+          "en": "Wide and long formats serve different tasks; melt and pivot change the roles of rows and columns. Missing values are not universally zero. Learn imputation parameters from training data to avoid leakage."
+        }
+      ],
+      "example": {
+        "zh": "將兩天的示例氣溫由寬表改為每列一個城市、日期的長表，再檢查鍵。",
+        "en": "Reshape toy temperatures into city-day rows and check their key."
+      },
+      "code": "import pandas as pd\nwide = pd.DataFrame({'city': ['Taipei', 'Tainan'], 'Mon': [22, 25], 'Tue': [23, 26]})\nlong = wide.melt(id_vars='city', var_name='day', value_name='temperature')\nassert not long.duplicated(['city', 'day']).any()\nprint(long.to_string(index=False))",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "把未知的氣溫直接補成 0，主要問題是？",
+            "en": "What is a problem with replacing unknown temperatures with zero?"
+          },
+          "options": [
+            {
+              "id": "b",
+              "zh": "零永遠是合理預設",
+              "en": "Zero is always appropriate"
+            },
+            {
+              "id": "c",
+              "zh": "一定不影響平均數",
+              "en": "The mean cannot change"
+            },
+            {
+              "id": "a",
+              "zh": "把缺測誤當成真實的零度",
+              "en": "It treats missingness as a measured zero"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "補值必須有情境與模型依據；零度和沒有量測是不同的資訊。",
+            "en": "Imputation needs a contextual justification. Zero degrees and no measurement are different information."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "melt 最常用於哪種轉換？",
+            "en": "What transformation commonly uses melt?"
+          },
+          "options": [
+            {
+              "id": "c",
+              "zh": "把數值全部變文字",
+              "en": "Convert every number to text"
+            },
+            {
+              "id": "a",
+              "zh": "寬表轉長表",
+              "en": "Wide to long"
+            },
+            {
+              "id": "b",
+              "zh": "刪除所有缺值",
+              "en": "Drop every missing value"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "melt 把原本多個欄位的值放到長表的列中。",
+            "en": "melt places values from multiple columns into rows."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH09-TOC01",
+          "level": 1,
+          "title": "Example: Wrangling CO2 Measurements from the Mauna Loa Observatory",
+          "pdfPage": 186,
+          "printPage": 164
+        },
+        {
+          "id": "LDS1-CH09-TOC02",
+          "level": 2,
+          "title": "Quality Checks",
+          "pdfPage": 189,
+          "printPage": 167
+        },
+        {
+          "id": "LDS1-CH09-TOC03",
+          "level": 2,
+          "title": "Addressing Missing Data",
+          "pdfPage": 192,
+          "printPage": 170
+        },
+        {
+          "id": "LDS1-CH09-TOC04",
+          "level": 2,
+          "title": "Reshaping the Data Table",
+          "pdfPage": 193,
+          "printPage": 171
+        },
+        {
+          "id": "LDS1-CH09-TOC05",
+          "level": 1,
+          "title": "Quality Checks",
+          "pdfPage": 194,
+          "printPage": 172
+        },
+        {
+          "id": "LDS1-CH09-TOC06",
+          "level": 2,
+          "title": "Quality Based on Scope",
+          "pdfPage": 194,
+          "printPage": 172
+        },
+        {
+          "id": "LDS1-CH09-TOC07",
+          "level": 2,
+          "title": "Quality of Measurements and Recorded Values",
+          "pdfPage": 195,
+          "printPage": 173
+        },
+        {
+          "id": "LDS1-CH09-TOC08",
+          "level": 2,
+          "title": "Quality Across Related Features",
+          "pdfPage": 196,
+          "printPage": 174
+        },
+        {
+          "id": "LDS1-CH09-TOC09",
+          "level": 2,
+          "title": "Quality for Analysis",
+          "pdfPage": 196,
+          "printPage": 174
+        },
+        {
+          "id": "LDS1-CH09-TOC10",
+          "level": 2,
+          "title": "Fixing the Data or Not",
+          "pdfPage": 197,
+          "printPage": 175
+        },
+        {
+          "id": "LDS1-CH09-TOC11",
+          "level": 1,
+          "title": "Missing Values and Records",
+          "pdfPage": 198,
+          "printPage": 176
+        },
+        {
+          "id": "LDS1-CH09-TOC12",
+          "level": 1,
+          "title": "Transformations and Timestamps",
+          "pdfPage": 200,
+          "printPage": 178
+        },
+        {
+          "id": "LDS1-CH09-TOC13",
+          "level": 2,
+          "title": "Transforming Timestamps",
+          "pdfPage": 201,
+          "printPage": 179
+        },
+        {
+          "id": "LDS1-CH09-TOC14",
+          "level": 2,
+          "title": "Piping for Transformations",
+          "pdfPage": 204,
+          "printPage": 182
+        },
+        {
+          "id": "LDS1-CH09-TOC15",
+          "level": 1,
+          "title": "Modifying Structure",
+          "pdfPage": 205,
+          "printPage": 183
+        },
+        {
+          "id": "LDS1-CH09-TOC16",
+          "level": 1,
+          "title": "Example: Wrangling Restaurant Safety Violations",
+          "pdfPage": 208,
+          "printPage": 186
+        },
+        {
+          "id": "LDS1-CH09-TOC17",
+          "level": 2,
+          "title": "Narrowing the Focus",
+          "pdfPage": 209,
+          "printPage": 187
+        },
+        {
+          "id": "LDS1-CH09-TOC18",
+          "level": 2,
+          "title": "Aggregating Violations",
+          "pdfPage": 210,
+          "printPage": 188
+        },
+        {
+          "id": "LDS1-CH09-TOC19",
+          "level": 2,
+          "title": "Extracting Information from Violation Descriptions",
+          "pdfPage": 212,
+          "printPage": 190
+        },
+        {
+          "id": "LDS1-CH09-TOC20",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 215,
+          "printPage": 193
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH10",
+      "chapter": 10,
+      "titleZh": "讓分布與分組揭露問題",
+      "titleEn": "Let distributions reveal the questions",
+      "kind": "guide",
+      "printPage": 195,
+      "pdfPage": 217,
+      "printEnd": 234,
+      "pdfEnd": 256,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "先檢查資料型別、範圍、缺值與單變量分布，再比較分組和變量關係。平均值相同的資料，形狀與離群程度可以差很多。探索是發現線索，也是在檢查資料生成過程。",
+          "en": "Inspect types, ranges, missingness, and univariate distributions before comparing groups and relationships. Equal means can conceal very different shapes and outliers. Exploration also checks the data-generating process."
+        },
+        {
+          "id": "explanation",
+          "zh": "直方圖受組距影響，散點圖能揭露非線性、異質變異與群聚。分組關係可能和整體關係不同，需檢查混雜因素。探索後提出的假設應用新資料或合適的分析設計檢驗。",
+          "en": "Histogram bin widths affect appearance; scatterplots reveal nonlinearity, unequal variance, and clusters. Pooled and within-group relationships may differ. Hypotheses discovered during exploration need appropriate subsequent validation."
+        }
+      ],
+      "example": {
+        "zh": "先比較兩組示例數值的中位數與最大值，再決定是否需要檢查異常來源。",
+        "en": "Compare toy groups using medians and maxima before investigating unusual values."
+      },
+      "code": "import pandas as pd\ndf = pd.DataFrame({'group': ['A'] * 4 + ['B'] * 4, 'value': [1, 2, 3, 4, 1, 2, 3, 40]})\nprint(df.groupby('group')['value'].agg(['mean', 'median', 'max']))",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "發現兩個變量相關後，可以直接得出什麼？",
+            "en": "What follows directly from an observed association?"
+          },
+          "options": [
+            {
+              "id": "c",
+              "zh": "不存在混雜變量",
+              "en": "No confounding variables exist"
+            },
+            {
+              "id": "a",
+              "zh": "存在值得調查的關聯",
+              "en": "A relationship worth investigating"
+            },
+            {
+              "id": "b",
+              "zh": "其中一個必然造成另一個",
+              "en": "One must cause the other"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "關聯可以引導後續研究；因果結論需要研究設計與額外假設。",
+            "en": "Association can guide research; causality requires design and additional assumptions."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "直方圖外觀會受什麼影響？",
+            "en": "What affects histogram appearance?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "zh": "組距",
+              "en": "Bin widths"
+            },
+            {
+              "id": "b",
+              "zh": "只有資料筆數，與組距無關",
+              "en": "Only sample size, never bin widths"
+            },
+            {
+              "id": "c",
+              "zh": "只有座標顏色",
+              "en": "Only axis color"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "應嘗試合理組距並比較分布特徵是否穩定。",
+            "en": "Compare reasonable bin widths to assess stable distributional features."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH10-TOC01",
+          "level": 1,
+          "title": "Feature Types",
+          "pdfPage": 218,
+          "printPage": 196
+        },
+        {
+          "id": "LDS1-CH10-TOC02",
+          "level": 2,
+          "title": "Example: Dog Breeds",
+          "pdfPage": 220,
+          "printPage": 198
+        },
+        {
+          "id": "LDS1-CH10-TOC03",
+          "level": 2,
+          "title": "Transforming Qualitative Features",
+          "pdfPage": 225,
+          "printPage": 203
+        },
+        {
+          "id": "LDS1-CH10-TOC04",
+          "level": 2,
+          "title": "The Importance of Feature Types",
+          "pdfPage": 228,
+          "printPage": 206
+        },
+        {
+          "id": "LDS1-CH10-TOC05",
+          "level": 1,
+          "title": "What to Look For in a Distribution",
+          "pdfPage": 229,
+          "printPage": 207
+        },
+        {
+          "id": "LDS1-CH10-TOC06",
+          "level": 1,
+          "title": "What to Look For in a Relationship",
+          "pdfPage": 233,
+          "printPage": 211
+        },
+        {
+          "id": "LDS1-CH10-TOC07",
+          "level": 2,
+          "title": "Two Quantitative Features",
+          "pdfPage": 233,
+          "printPage": 211
+        },
+        {
+          "id": "LDS1-CH10-TOC08",
+          "level": 2,
+          "title": "One Qualitative and One Quantitative Variable",
+          "pdfPage": 234,
+          "printPage": 212
+        },
+        {
+          "id": "LDS1-CH10-TOC09",
+          "level": 2,
+          "title": "Two Qualitative Features",
+          "pdfPage": 236,
+          "printPage": 214
+        },
+        {
+          "id": "LDS1-CH10-TOC10",
+          "level": 1,
+          "title": "Comparisons in Multivariate Settings",
+          "pdfPage": 238,
+          "printPage": 216
+        },
+        {
+          "id": "LDS1-CH10-TOC11",
+          "level": 1,
+          "title": "Guidelines for Exploration",
+          "pdfPage": 242,
+          "printPage": 220
+        },
+        {
+          "id": "LDS1-CH10-TOC12",
+          "level": 1,
+          "title": "Example: Sale Prices for Houses",
+          "pdfPage": 243,
+          "printPage": 221
+        },
+        {
+          "id": "LDS1-CH10-TOC13",
+          "level": 2,
+          "title": "Understanding Price",
+          "pdfPage": 244,
+          "printPage": 222
+        },
+        {
+          "id": "LDS1-CH10-TOC14",
+          "level": 2,
+          "title": "What Next?",
+          "pdfPage": 246,
+          "printPage": 224
+        },
+        {
+          "id": "LDS1-CH10-TOC15",
+          "level": 2,
+          "title": "Examining Other Features",
+          "pdfPage": 247,
+          "printPage": 225
+        },
+        {
+          "id": "LDS1-CH10-TOC16",
+          "level": 2,
+          "title": "Delving Deeper into Relationships",
+          "pdfPage": 251,
+          "printPage": 229
+        },
+        {
+          "id": "LDS1-CH10-TOC17",
+          "level": 2,
+          "title": "Fixing Location",
+          "pdfPage": 252,
+          "printPage": 230
+        },
+        {
+          "id": "LDS1-CH10-TOC18",
+          "level": 2,
+          "title": "EDA Discoveries",
+          "pdfPage": 254,
+          "printPage": 232
+        },
+        {
+          "id": "LDS1-CH10-TOC19",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 255,
+          "printPage": 233
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH11",
+      "chapter": 11,
+      "titleZh": "選圖，是選擇比較的方式",
+      "titleEn": "Choose the comparison before the chart",
+      "kind": "guide",
+      "printPage": 235,
+      "pdfPage": 257,
+      "printEnd": 280,
+      "pdfEnd": 302,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "比較類別可用長條圖，觀察數值分布可用直方圖，比較兩個數值可用散點圖，追蹤時間可用折線圖。圖表先回答一個問題，再決定美化細節。",
+          "en": "Use bars for categories, histograms for distributions, scatterplots for numerical pairs, and lines for time. Choose a question and comparison before styling the chart."
+        },
+        {
+          "id": "explanation",
+          "zh": "用位置與長度傳達數值通常比面積容易比較。長條圖的長度代表數量時，零基準尤其重要。標出單位、資料範圍、樣本數與不確定性；顏色不能成為唯一的辨識方法。",
+          "en": "Position and length are often easier to compare than area. A zero baseline matters when bar length encodes magnitude. State units, scope, sample size, and uncertainty; do not rely on color alone."
+        }
+      ],
+      "example": {
+        "zh": "示例圖使用時間作橫軸、到站旅客人數作縱軸，避免把不規則時間當成等距類別。",
+        "en": "Use time on the horizontal axis and passenger counts on the vertical axis; respect actual time spacing."
+      },
+      "code": "import matplotlib\nmatplotlib.use('Agg')\nimport matplotlib.pyplot as plt\nfig, ax = plt.subplots()\nax.plot([8, 9, 10, 11], [30, 54, 38, 25], marker='o')\nax.set(xlabel='Hour', ylabel='Passengers', title='Toy station counts (n=4 hours)')\nfig.savefig('toy-passengers.png', dpi=150, bbox_inches='tight')\nplt.close(fig)",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "用長條長度表示人數時，什麼設計有助於避免誤導？",
+            "en": "When bar length represents a count, what helps avoid misleading comparisons?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "zh": "使用零基準並標示單位",
+              "en": "A zero baseline and units"
+            },
+            {
+              "id": "b",
+              "zh": "把縱軸起點任意提高",
+              "en": "An arbitrary raised baseline"
+            },
+            {
+              "id": "c",
+              "zh": "移除全部座標標籤",
+              "en": "Removing all axis labels"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "截斷長條圖座標可能誇大比例差異；清楚標示尺度是基本要求。",
+            "en": "Truncating a bar-chart axis can exaggerate ratios. Make the scale explicit."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "比較兩個數值變量，先考慮哪種圖？",
+            "en": "Which chart is a natural first choice for two numerical variables?"
+          },
+          "options": [
+            {
+              "id": "b",
+              "zh": "沒有座標的圓形",
+              "en": "An unscaled circle"
+            },
+            {
+              "id": "c",
+              "zh": "只放平均值文字",
+              "en": "Only mean-value text"
+            },
+            {
+              "id": "a",
+              "zh": "散點圖",
+              "en": "Scatterplot"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "散點圖呈現配對數值，可查看關係、群聚與離群。",
+            "en": "A scatterplot displays paired values, clusters, and outliers."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH11-TOC01",
+          "level": 1,
+          "title": "Choosing Scale to Reveal Structure",
+          "pdfPage": 257,
+          "printPage": 235
+        },
+        {
+          "id": "LDS1-CH11-TOC02",
+          "level": 2,
+          "title": "Filling the Data Region",
+          "pdfPage": 258,
+          "printPage": 236
+        },
+        {
+          "id": "LDS1-CH11-TOC03",
+          "level": 2,
+          "title": "Including Zero",
+          "pdfPage": 259,
+          "printPage": 237
+        },
+        {
+          "id": "LDS1-CH11-TOC04",
+          "level": 2,
+          "title": "Revealing Shape Through Transformations",
+          "pdfPage": 261,
+          "printPage": 239
+        },
+        {
+          "id": "LDS1-CH11-TOC05",
+          "level": 2,
+          "title": "Banking to Decipher Relationships",
+          "pdfPage": 263,
+          "printPage": 241
+        },
+        {
+          "id": "LDS1-CH11-TOC06",
+          "level": 2,
+          "title": "Revealing Relationships Through Straightening",
+          "pdfPage": 264,
+          "printPage": 242
+        },
+        {
+          "id": "LDS1-CH11-TOC07",
+          "level": 1,
+          "title": "Smoothing and Aggregating Data",
+          "pdfPage": 267,
+          "printPage": 245
+        },
+        {
+          "id": "LDS1-CH11-TOC08",
+          "level": 2,
+          "title": "Smoothing Techniques to Uncover Shape",
+          "pdfPage": 267,
+          "printPage": 245
+        },
+        {
+          "id": "LDS1-CH11-TOC09",
+          "level": 2,
+          "title": "Smoothing Techniques to Uncover Relationships and Trends",
+          "pdfPage": 269,
+          "printPage": 247
+        },
+        {
+          "id": "LDS1-CH11-TOC10",
+          "level": 2,
+          "title": "Smoothing Techniques Need Tuning",
+          "pdfPage": 271,
+          "printPage": 249
+        },
+        {
+          "id": "LDS1-CH11-TOC11",
+          "level": 2,
+          "title": "Reducing Distributions to Quantiles",
+          "pdfPage": 272,
+          "printPage": 250
+        },
+        {
+          "id": "LDS1-CH11-TOC12",
+          "level": 2,
+          "title": "When Not to Smooth",
+          "pdfPage": 274,
+          "printPage": 252
+        },
+        {
+          "id": "LDS1-CH11-TOC13",
+          "level": 1,
+          "title": "Facilitating Meaningful Comparisons",
+          "pdfPage": 276,
+          "printPage": 254
+        },
+        {
+          "id": "LDS1-CH11-TOC14",
+          "level": 2,
+          "title": "Emphasize the Important Difference",
+          "pdfPage": 276,
+          "printPage": 254
+        },
+        {
+          "id": "LDS1-CH11-TOC15",
+          "level": 2,
+          "title": "Ordering Groups",
+          "pdfPage": 278,
+          "printPage": 256
+        },
+        {
+          "id": "LDS1-CH11-TOC16",
+          "level": 2,
+          "title": "Avoid Stacking",
+          "pdfPage": 280,
+          "printPage": 258
+        },
+        {
+          "id": "LDS1-CH11-TOC17",
+          "level": 2,
+          "title": "Selecting a Color Palette",
+          "pdfPage": 282,
+          "printPage": 260
+        },
+        {
+          "id": "LDS1-CH11-TOC18",
+          "level": 2,
+          "title": "Guidelines for Comparisons in Plots",
+          "pdfPage": 284,
+          "printPage": 262
+        },
+        {
+          "id": "LDS1-CH11-TOC19",
+          "level": 1,
+          "title": "Incorporating the Data Design",
+          "pdfPage": 285,
+          "printPage": 263
+        },
+        {
+          "id": "LDS1-CH11-TOC20",
+          "level": 2,
+          "title": "Data Collected Over Time",
+          "pdfPage": 285,
+          "printPage": 263
+        },
+        {
+          "id": "LDS1-CH11-TOC21",
+          "level": 2,
+          "title": "Observational Studies",
+          "pdfPage": 287,
+          "printPage": 265
+        },
+        {
+          "id": "LDS1-CH11-TOC22",
+          "level": 2,
+          "title": "Unequal Sampling",
+          "pdfPage": 288,
+          "printPage": 266
+        },
+        {
+          "id": "LDS1-CH11-TOC23",
+          "level": 2,
+          "title": "Geographic Data",
+          "pdfPage": 289,
+          "printPage": 267
+        },
+        {
+          "id": "LDS1-CH11-TOC24",
+          "level": 1,
+          "title": "Adding Context",
+          "pdfPage": 290,
+          "printPage": 268
+        },
+        {
+          "id": "LDS1-CH11-TOC25",
+          "level": 2,
+          "title": "Example: 100m Sprint Times",
+          "pdfPage": 291,
+          "printPage": 269
+        },
+        {
+          "id": "LDS1-CH11-TOC26",
+          "level": 1,
+          "title": "Creating Plots Using plotly",
+          "pdfPage": 292,
+          "printPage": 270
+        },
+        {
+          "id": "LDS1-CH11-TOC27",
+          "level": 2,
+          "title": "Figure and Trace Objects",
+          "pdfPage": 293,
+          "printPage": 271
+        },
+        {
+          "id": "LDS1-CH11-TOC28",
+          "level": 2,
+          "title": "Modifying Layout",
+          "pdfPage": 295,
+          "printPage": 273
+        },
+        {
+          "id": "LDS1-CH11-TOC29",
+          "level": 2,
+          "title": "Plotting Functions",
+          "pdfPage": 296,
+          "printPage": 274
+        },
+        {
+          "id": "LDS1-CH11-TOC30",
+          "level": 2,
+          "title": "Annotations",
+          "pdfPage": 298,
+          "printPage": 276
+        },
+        {
+          "id": "LDS1-CH11-TOC31",
+          "level": 1,
+          "title": "Other Tools for Visualization",
+          "pdfPage": 299,
+          "printPage": 277
+        },
+        {
+          "id": "LDS1-CH11-TOC32",
+          "level": 2,
+          "title": "matplotlib",
+          "pdfPage": 300,
+          "printPage": 278
+        },
+        {
+          "id": "LDS1-CH11-TOC33",
+          "level": 2,
+          "title": "Grammar of Graphics",
+          "pdfPage": 300,
+          "printPage": 278
+        },
+        {
+          "id": "LDS1-CH11-TOC34",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 301,
+          "printPage": 279
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH12",
+      "chapter": 12,
+      "titleZh": "感測器讀值，需要校準與驗證",
+      "titleEn": "A sensor reading needs a measurement model",
+      "kind": "guide",
+      "printPage": 281,
+      "pdfPage": 303,
+      "printEnd": 312,
+      "pdfEnd": 334,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "低成本感測器和參考儀器量到的值可能系統性不同。先對齊位置、時間、單位與有效時段，再談相關與校準。高相關不代表兩台儀器的讀值接近。",
+          "en": "Low-cost sensors and reference instruments may differ systematically. Align location, time, units, and valid operating periods before assessing calibration. High correlation does not imply agreement."
+        },
+        {
+          "id": "explanation",
+          "zh": "將感測器與參考儀器的差值畫成時間或濃度的函數，可檢查固定偏差與漂移。校準模型要在獨立資料評估，並思考濕度、季節與裝置差異。此處使用教學數值，不是實際監測結論。",
+          "en": "Plot measurement differences over time or concentration to inspect bias and drift. Evaluate calibration on independent data and consider humidity, season, and device effects. The example uses teaching values, not monitoring results."
+        }
+      ],
+      "example": {
+        "zh": "示例感測器每次都比參考值高 5；兩者仍完全線性相關，但存在固定偏差。",
+        "en": "A sensor consistently five units above a reference can be perfectly correlated while biased."
+      },
+      "code": "import numpy as np\nreference = np.array([10., 20., 30., 40.])\nsensor = reference + 5\nprint('bias:', np.mean(sensor - reference))\nprint('RMSE:', np.sqrt(np.mean((sensor - reference) ** 2)))",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "感測器與參考值相關係數為 1，是否代表測量準確？",
+            "en": "Does a correlation of one imply accurate sensor readings?"
+          },
+          "options": [
+            {
+              "id": "b",
+              "zh": "是，誤差必定為零",
+              "en": "Yes; error must be zero"
+            },
+            {
+              "id": "c",
+              "zh": "是，不需要校準",
+              "en": "Yes; calibration is unnecessary"
+            },
+            {
+              "id": "a",
+              "zh": "不一定，仍可能有固定偏差",
+              "en": "No; a fixed bias may remain"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "相關描述共同變動；一致性還要看兩組數值的差距。",
+            "en": "Correlation describes co-movement; agreement also depends on numerical differences."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "評估校準模型時應使用？",
+            "en": "How should a calibration model be evaluated?"
+          },
+          "options": [
+            {
+              "id": "c",
+              "zh": "只看兩儀器顏色",
+              "en": "Instrument colors"
+            },
+            {
+              "id": "a",
+              "zh": "獨立於配適的資料",
+              "en": "Data independent of fitting"
+            },
+            {
+              "id": "b",
+              "zh": "只看訓練殘差",
+              "en": "Training residuals only"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "獨立評估才能檢查新條件下的預測表現。",
+            "en": "Independent evaluation checks performance beyond fitted observations."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH12-TOC01",
+          "level": 1,
+          "title": "Question, Design, and Scope",
+          "pdfPage": 304,
+          "printPage": 282
+        },
+        {
+          "id": "LDS1-CH12-TOC02",
+          "level": 1,
+          "title": "Finding Collocated Sensors",
+          "pdfPage": 306,
+          "printPage": 284
+        },
+        {
+          "id": "LDS1-CH12-TOC03",
+          "level": 2,
+          "title": "Wrangling the List of AQS Sites",
+          "pdfPage": 306,
+          "printPage": 284
+        },
+        {
+          "id": "LDS1-CH12-TOC04",
+          "level": 2,
+          "title": "Wrangling the List of PurpleAir Sites",
+          "pdfPage": 308,
+          "printPage": 286
+        },
+        {
+          "id": "LDS1-CH12-TOC05",
+          "level": 2,
+          "title": "Matching AQS and PurpleAir Sensors",
+          "pdfPage": 310,
+          "printPage": 288
+        },
+        {
+          "id": "LDS1-CH12-TOC06",
+          "level": 1,
+          "title": "Wrangling and Cleaning AQS Sensor Data",
+          "pdfPage": 312,
+          "printPage": 290
+        },
+        {
+          "id": "LDS1-CH12-TOC07",
+          "level": 2,
+          "title": "Checking Granularity",
+          "pdfPage": 313,
+          "printPage": 291
+        },
+        {
+          "id": "LDS1-CH12-TOC08",
+          "level": 2,
+          "title": "Removing Unneeded Columns",
+          "pdfPage": 314,
+          "printPage": 292
+        },
+        {
+          "id": "LDS1-CH12-TOC09",
+          "level": 2,
+          "title": "Checking the Validity of Dates",
+          "pdfPage": 314,
+          "printPage": 292
+        },
+        {
+          "id": "LDS1-CH12-TOC10",
+          "level": 2,
+          "title": "Checking the Quality of PM2.5 Measurements",
+          "pdfPage": 315,
+          "printPage": 293
+        },
+        {
+          "id": "LDS1-CH12-TOC11",
+          "level": 1,
+          "title": "Wrangling PurpleAir Sensor Data",
+          "pdfPage": 316,
+          "printPage": 294
+        },
+        {
+          "id": "LDS1-CH12-TOC12",
+          "level": 2,
+          "title": "Checking the Granularity",
+          "pdfPage": 318,
+          "printPage": 296
+        },
+        {
+          "id": "LDS1-CH12-TOC13",
+          "level": 2,
+          "title": "Handling Missing Values",
+          "pdfPage": 322,
+          "printPage": 300
+        },
+        {
+          "id": "LDS1-CH12-TOC14",
+          "level": 1,
+          "title": "Exploring PurpleAir and AQS Measurements",
+          "pdfPage": 324,
+          "printPage": 302
+        },
+        {
+          "id": "LDS1-CH12-TOC15",
+          "level": 1,
+          "title": "Creating a Model to Correct PurpleAir Measurements",
+          "pdfPage": 330,
+          "printPage": 308
+        },
+        {
+          "id": "LDS1-CH12-TOC16",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 332,
+          "printPage": 310
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH13",
+      "chapter": 13,
+      "titleZh": "把文字變成特徵，仍要保留語境",
+      "titleEn": "Text features need context",
+      "kind": "guide",
+      "printPage": 315,
+      "pdfPage": 337,
+      "printEnd": 334,
+      "pdfEnd": 356,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "文字處理從編碼、大小寫、空白與字詞邊界開始。正規表示式適合明確的字元模式，但不等於理解語意。刪除標點、停用詞或數字前，先問它們是否承載預測資訊。",
+          "en": "Text processing begins with encoding, case, whitespace, and token boundaries. Regular expressions detect character patterns, not meaning. Before removing punctuation, stop words, or numbers, ask whether they carry information."
+        },
+        {
+          "id": "explanation",
+          "zh": "詞袋把文字轉成字詞計數，會丟失順序；TF-IDF 調整詞在文件內與跨文件的權重。詞彙表與權重都應只用訓練集建立。短文字與不同語言的斷詞需求也不同。",
+          "en": "Bag-of-words features discard order; TF-IDF reweights terms within and across documents. Fit vocabularies and weights on training data only. Tokenization choices depend on language and text length."
+        }
+      ],
+      "example": {
+        "zh": "示例只擷取英文小寫單字；這個規則不適用於沒有空格分詞的中文。",
+        "en": "The toy rule extracts lowercase English words and is not a general Chinese tokenizer."
+      },
+      "code": "import re\nfrom collections import Counter\ntext = 'Data science, data questions!'\ntokens = re.findall(r'[a-z]+', text.lower())\nprint(Counter(tokens))",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "詞袋表示通常會遺失哪項資訊？",
+            "en": "What information does a bag-of-words representation usually discard?"
+          },
+          "options": [
+            {
+              "id": "c",
+              "zh": "每個字詞的次數",
+              "en": "Term counts"
+            },
+            {
+              "id": "a",
+              "zh": "字詞的順序",
+              "en": "Word order"
+            },
+            {
+              "id": "b",
+              "zh": "每個字詞是否出現",
+              "en": "Term presence"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "詞袋保留計數或權重，但不同順序的句子可能得到同樣的特徵向量。",
+            "en": "Different word orders can yield the same vector of counts or weights."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "文字向量化的詞彙表應從哪裡建立？",
+            "en": "Where should a text vocabulary be fitted?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "zh": "訓練集",
+              "en": "Training data"
+            },
+            {
+              "id": "b",
+              "zh": "全部測試文字",
+              "en": "All test documents"
+            },
+            {
+              "id": "c",
+              "zh": "先看測試標籤再決定",
+              "en": "After inspecting test labels"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "詞彙表也是學習結果，須防止測試資訊流入。",
+            "en": "The vocabulary is learned and must not leak test information."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH13-TOC01",
+          "level": 1,
+          "title": "Examples of Text and Tasks",
+          "pdfPage": 338,
+          "printPage": 316
+        },
+        {
+          "id": "LDS1-CH13-TOC02",
+          "level": 2,
+          "title": "Convert Text into a Standard Format",
+          "pdfPage": 338,
+          "printPage": 316
+        },
+        {
+          "id": "LDS1-CH13-TOC03",
+          "level": 2,
+          "title": "Extract a Piece of Text to Create a Feature",
+          "pdfPage": 338,
+          "printPage": 316
+        },
+        {
+          "id": "LDS1-CH13-TOC04",
+          "level": 2,
+          "title": "Transform Text into Features",
+          "pdfPage": 339,
+          "printPage": 317
+        },
+        {
+          "id": "LDS1-CH13-TOC05",
+          "level": 2,
+          "title": "Text Analysis",
+          "pdfPage": 339,
+          "printPage": 317
+        },
+        {
+          "id": "LDS1-CH13-TOC06",
+          "level": 1,
+          "title": "String Manipulation",
+          "pdfPage": 340,
+          "printPage": 318
+        },
+        {
+          "id": "LDS1-CH13-TOC07",
+          "level": 2,
+          "title": "Converting Text to a Standard Format with Python String Methods",
+          "pdfPage": 340,
+          "printPage": 318
+        },
+        {
+          "id": "LDS1-CH13-TOC08",
+          "level": 2,
+          "title": "String Methods in pandas",
+          "pdfPage": 341,
+          "printPage": 319
+        },
+        {
+          "id": "LDS1-CH13-TOC09",
+          "level": 2,
+          "title": "Splitting Strings to Extract Pieces of Text",
+          "pdfPage": 342,
+          "printPage": 320
+        },
+        {
+          "id": "LDS1-CH13-TOC10",
+          "level": 1,
+          "title": "Regular Expressions",
+          "pdfPage": 343,
+          "printPage": 321
+        },
+        {
+          "id": "LDS1-CH13-TOC11",
+          "level": 2,
+          "title": "Concatenation of Literals",
+          "pdfPage": 344,
+          "printPage": 322
+        },
+        {
+          "id": "LDS1-CH13-TOC12",
+          "level": 2,
+          "title": "Quantifiers",
+          "pdfPage": 346,
+          "printPage": 324
+        },
+        {
+          "id": "LDS1-CH13-TOC13",
+          "level": 2,
+          "title": "Alternation and Grouping to Create Features",
+          "pdfPage": 348,
+          "printPage": 326
+        },
+        {
+          "id": "LDS1-CH13-TOC14",
+          "level": 2,
+          "title": "Reference Tables",
+          "pdfPage": 349,
+          "printPage": 327
+        },
+        {
+          "id": "LDS1-CH13-TOC15",
+          "level": 1,
+          "title": "Text Analysis",
+          "pdfPage": 351,
+          "printPage": 329
+        },
+        {
+          "id": "LDS1-CH13-TOC16",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 356,
+          "printPage": 334
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH14",
+      "chapter": 14,
+      "titleZh": "API 回應也有資料契約",
+      "titleEn": "An API response has a data contract",
+      "kind": "guide",
+      "printPage": 335,
+      "pdfPage": 357,
+      "printEnd": 364,
+      "pdfEnd": 386,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "從網路取得資料時，要同時理解 URL、HTTP 狀態、回應格式與欄位意義。JSON 是交換格式，不保證資料完整或正確。網站畫面、HTML 結構與 API 回應也不是同一種資料。",
+          "en": "When retrieving web data, understand the URL, HTTP status, response format, and field semantics. JSON is an interchange format, not a guarantee of correctness. HTML pages and API responses have different structures."
+        },
+        {
+          "id": "explanation",
+          "zh": "檢查狀態碼、逾時、分頁、速率限制與缺漏欄位，並記錄擷取時間和來源。解析 HTML 時選擇穩定結構，避免依賴容易變動的外觀位置。不要把存取憑證寫進公開程式或網址。",
+          "en": "Check status codes, timeouts, pagination, rate limits, and missing fields; record retrieval time and source. Parse stable HTML structures and keep credentials out of public source and URLs."
+        }
+      ],
+      "example": {
+        "zh": "以下以離線 JSON 示範結構驗證，不會對外發出請求。",
+        "en": "This offline JSON example validates structure without issuing network requests."
+      },
+      "code": "import json\npayload = json.loads('{\"items\":[{\"city\":\"Taipei\",\"count\":12}],\"next\":null}')\nassert isinstance(payload.get('items'), list)\nfor item in payload['items']:\n    assert isinstance(item['count'], int)\n    print(item['city'], item['count'])",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "收到可解析的 JSON，下一步仍應檢查什麼？",
+            "en": "What should you check even after parsing JSON successfully?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "zh": "欄位、型別與分頁是否符合預期",
+              "en": "Fields, types, and pagination"
+            },
+            {
+              "id": "b",
+              "zh": "一定已取得全部資料",
+              "en": "All data must be present"
+            },
+            {
+              "id": "c",
+              "zh": "資料一定沒有缺值",
+              "en": "Missingness is impossible"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "語法正確只代表能解析，不保證回應符合你的資料契約。",
+            "en": "Syntactic validity does not establish that the response satisfies the data contract."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "遇到 API 分頁，應如何確認涵蓋範圍？",
+            "en": "How should pagination coverage be checked?"
+          },
+          "options": [
+            {
+              "id": "b",
+              "zh": "只取第一頁當全部",
+              "en": "Treat the first page as everything"
+            },
+            {
+              "id": "c",
+              "zh": "看 JSON 能否解析就夠了",
+              "en": "Check parsing only"
+            },
+            {
+              "id": "a",
+              "zh": "追蹤分頁規則與取得的紀錄數",
+              "en": "Track pagination rules and record counts"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "第一頁可解析不代表全部資料都已取得。",
+            "en": "A valid first page does not establish complete retrieval."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH14-TOC01",
+          "level": 1,
+          "title": "NetCDF Data",
+          "pdfPage": 358,
+          "printPage": 336
+        },
+        {
+          "id": "LDS1-CH14-TOC02",
+          "level": 1,
+          "title": "JSON Data",
+          "pdfPage": 363,
+          "printPage": 341
+        },
+        {
+          "id": "LDS1-CH14-TOC03",
+          "level": 1,
+          "title": "HTTP",
+          "pdfPage": 367,
+          "printPage": 345
+        },
+        {
+          "id": "LDS1-CH14-TOC04",
+          "level": 1,
+          "title": "REST",
+          "pdfPage": 371,
+          "printPage": 349
+        },
+        {
+          "id": "LDS1-CH14-TOC05",
+          "level": 1,
+          "title": "XML, HTML, and XPath",
+          "pdfPage": 375,
+          "printPage": 353
+        },
+        {
+          "id": "LDS1-CH14-TOC06",
+          "level": 2,
+          "title": "Example: Scraping Race Times from Wikipedia",
+          "pdfPage": 378,
+          "printPage": 356
+        },
+        {
+          "id": "LDS1-CH14-TOC07",
+          "level": 2,
+          "title": "XPath",
+          "pdfPage": 380,
+          "printPage": 358
+        },
+        {
+          "id": "LDS1-CH14-TOC08",
+          "level": 2,
+          "title": "Example: Accessing Exchange Rates from the ECB",
+          "pdfPage": 382,
+          "printPage": 360
+        },
+        {
+          "id": "LDS1-CH14-TOC09",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 385,
+          "printPage": 363
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH15",
+      "chapter": 15,
+      "titleZh": "模型描述的是關係與殘差",
+      "titleEn": "A model describes a relationship and its residuals",
+      "kind": "guide",
+      "printPage": 367,
+      "pdfPage": 389,
+      "printEnd": 408,
+      "pdfEnd": 430,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "線性模型以特徵的加權組合預測結果；對參數線性，不代表原始變量只能呈現直線。可以加入平方項、類別指示變量與交互作用，但每項都要有可解釋的角色。",
+          "en": "A linear model predicts outcomes with a weighted combination of features. Linearity in parameters does not restrict raw variables to a straight-line relationship; squared terms, indicators, and interactions are possible."
+        },
+        {
+          "id": "explanation",
+          "zh": "最小平方法選擇使殘差平方和最小的係數。檢查殘差與擬合值的圖，可發現遺漏結構或變異改變。觀察資料中的係數描述條件關係，沒有研究設計支援時不能直接當成因果效果。",
+          "en": "Least squares minimizes the sum of squared residuals. Residual plots can reveal omitted structure and changing variance. Observational coefficients describe conditional relationships, not automatically causal effects."
+        }
+      ],
+      "example": {
+        "zh": "對四個教學點配適截距與斜率，使用最小平方法而非直接求矩陣反矩陣。",
+        "en": "Fit an intercept and slope to four teaching points using a least-squares solver."
+      },
+      "code": "import numpy as np\nx = np.array([1., 2., 3., 4.])\ny = np.array([3., 5., 7., 9.])\nX = np.column_stack([np.ones(len(x)), x])\nbeta, *_ = np.linalg.lstsq(X, y, rcond=None)\nprint('intercept, slope:', beta)\nprint('residuals:', y - X @ beta)",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "模型對參數線性，是否可以包含 x² 特徵？",
+            "en": "Can a model linear in its parameters include an x-squared feature?"
+          },
+          "options": [
+            {
+              "id": "b",
+              "zh": "不可以，任何平方都不行",
+              "en": "No squared terms are allowed"
+            },
+            {
+              "id": "c",
+              "zh": "只有沒有截距時可以",
+              "en": "Only without an intercept"
+            },
+            {
+              "id": "a",
+              "zh": "可以，平方項的係數仍是線性組合",
+              "en": "Yes; its coefficient still enters linearly"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "y = β₀ + β₁x + β₂x² 對 β 仍然是線性的。",
+            "en": "The expression y = β₀ + β₁x + β₂x² remains linear in the coefficients."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "殘差圖呈現曲線形狀，可能提示？",
+            "en": "What may a curved residual pattern indicate?"
+          },
+          "options": [
+            {
+              "id": "c",
+              "zh": "因果效果已被證明",
+              "en": "Proven causality"
+            },
+            {
+              "id": "a",
+              "zh": "模型遺漏非線性結構",
+              "en": "Unmodeled nonlinear structure"
+            },
+            {
+              "id": "b",
+              "zh": "模型一定完美",
+              "en": "A perfect model"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "殘差的系統性形狀可能代表平均結構沒有被捕捉。",
+            "en": "Systematic residual patterns can indicate a misspecified mean relationship."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH15-TOC01",
+          "level": 1,
+          "title": "Simple Linear Model",
+          "pdfPage": 390,
+          "printPage": 368
+        },
+        {
+          "id": "LDS1-CH15-TOC02",
+          "level": 1,
+          "title": "Example: A Simple Linear Model for Air Quality",
+          "pdfPage": 394,
+          "printPage": 372
+        },
+        {
+          "id": "LDS1-CH15-TOC03",
+          "level": 2,
+          "title": "Interpreting Linear Models",
+          "pdfPage": 396,
+          "printPage": 374
+        },
+        {
+          "id": "LDS1-CH15-TOC04",
+          "level": 2,
+          "title": "Assessing the Fit",
+          "pdfPage": 397,
+          "printPage": 375
+        },
+        {
+          "id": "LDS1-CH15-TOC05",
+          "level": 1,
+          "title": "Fitting the Simple Linear Model",
+          "pdfPage": 399,
+          "printPage": 377
+        },
+        {
+          "id": "LDS1-CH15-TOC06",
+          "level": 1,
+          "title": "Multiple Linear Model",
+          "pdfPage": 401,
+          "printPage": 379
+        },
+        {
+          "id": "LDS1-CH15-TOC07",
+          "level": 1,
+          "title": "Fitting the Multiple Linear Model",
+          "pdfPage": 406,
+          "printPage": 384
+        },
+        {
+          "id": "LDS1-CH15-TOC08",
+          "level": 1,
+          "title": "Example: Where Is the Land of Opportunity?",
+          "pdfPage": 410,
+          "printPage": 388
+        },
+        {
+          "id": "LDS1-CH15-TOC09",
+          "level": 2,
+          "title": "Explaining Upward Mobility Using Commute Time",
+          "pdfPage": 411,
+          "printPage": 389
+        },
+        {
+          "id": "LDS1-CH15-TOC10",
+          "level": 2,
+          "title": "Relating Upward Mobility Using Multiple Variables",
+          "pdfPage": 414,
+          "printPage": 392
+        },
+        {
+          "id": "LDS1-CH15-TOC11",
+          "level": 1,
+          "title": "Feature Engineering for Numeric Measurements",
+          "pdfPage": 418,
+          "printPage": 396
+        },
+        {
+          "id": "LDS1-CH15-TOC12",
+          "level": 1,
+          "title": "Feature Engineering for Categorical Measurements",
+          "pdfPage": 422,
+          "printPage": 400
+        },
+        {
+          "id": "LDS1-CH15-TOC13",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 429,
+          "printPage": 407
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH16",
+      "chapter": 16,
+      "titleZh": "讓測試資料保持新鮮",
+      "titleEn": "Keep test data genuinely unseen",
+      "kind": "guide",
+      "printPage": 409,
+      "pdfPage": 431,
+      "printEnd": 430,
+      "pdfEnd": 452,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "訓練誤差衡量模型對已看過資料的擬合；泛化誤差關心新資料。模型越複雜，訓練誤差可能越小，卻不一定有更好的新資料表現。",
+          "en": "Training error measures fit to observed data; generalization concerns new data. More complex models can reduce training error without improving future performance."
+        },
+        {
+          "id": "explanation",
+          "zh": "把模型與超參數比較放在驗證集或交叉驗證內，最後才使用測試集。補值、標準化與特徵選擇也要在每個訓練折內估計。重複查看測試結果再改模型，會把測試集變成開發資料。",
+          "en": "Compare models and hyperparameters using validation or cross-validation, then evaluate the test set once. Fit imputation, scaling, and feature selection within training folds. Repeated test-driven revisions contaminate evaluation."
+        }
+      ],
+      "example": {
+        "zh": "Pipeline 將標準化與模型放進同一個交叉驗證流程，避免先用全資料估計平均值。",
+        "en": "A pipeline keeps scaling and model fitting inside the cross-validation process."
+      },
+      "code": "import numpy as np\nfrom sklearn.pipeline import make_pipeline\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.linear_model import Ridge\nfrom sklearn.model_selection import cross_val_score, KFold\nX = np.arange(30.).reshape(-1, 1)\ny = 2 * X.ravel() + np.sin(X.ravel())\ncv = KFold(5, shuffle=True, random_state=42)\nmodel = make_pipeline(StandardScaler(), Ridge(alpha=1.0))\nprint(-cross_val_score(model, X, y, cv=cv, scoring='neg_mean_squared_error').mean())",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "用全部資料標準化後才做交叉驗證，風險是什麼？",
+            "en": "What is a risk of scaling all data before cross-validation?"
+          },
+          "options": [
+            {
+              "id": "c",
+              "zh": "交叉驗證不需要前處理",
+              "en": "Cross-validation needs no preprocessing"
+            },
+            {
+              "id": "a",
+              "zh": "驗證折的資訊流入訓練流程",
+              "en": "Validation information leaks into training"
+            },
+            {
+              "id": "b",
+              "zh": "一定使模型無法收斂",
+              "en": "The model cannot converge"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "標準化的平均值與尺度也屬於估計參數，應從每個訓練折學習。",
+            "en": "Scaling means and scales are learned parameters and belong inside each training fold."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "測試集應在什麼時候用來評估？",
+            "en": "When should the test set be used?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "zh": "模型選擇完成後",
+              "en": "After model selection"
+            },
+            {
+              "id": "b",
+              "zh": "每次改參數都查看",
+              "en": "After every parameter revision"
+            },
+            {
+              "id": "c",
+              "zh": "先用來挑特徵",
+              "en": "First, for feature selection"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "持續用測試分數選模型會造成評估污染。",
+            "en": "Repeated test-driven selection contaminates evaluation."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH16-TOC01",
+          "level": 1,
+          "title": "Overfitting",
+          "pdfPage": 432,
+          "printPage": 410
+        },
+        {
+          "id": "LDS1-CH16-TOC02",
+          "level": 2,
+          "title": "Example: Energy Consumption",
+          "pdfPage": 432,
+          "printPage": 410
+        },
+        {
+          "id": "LDS1-CH16-TOC03",
+          "level": 1,
+          "title": "Train-Test Split",
+          "pdfPage": 437,
+          "printPage": 415
+        },
+        {
+          "id": "LDS1-CH16-TOC04",
+          "level": 1,
+          "title": "Cross-Validation",
+          "pdfPage": 441,
+          "printPage": 419
+        },
+        {
+          "id": "LDS1-CH16-TOC05",
+          "level": 1,
+          "title": "Regularization",
+          "pdfPage": 446,
+          "printPage": 424
+        },
+        {
+          "id": "LDS1-CH16-TOC06",
+          "level": 1,
+          "title": "Model Bias and Variance",
+          "pdfPage": 447,
+          "printPage": 425
+        },
+        {
+          "id": "LDS1-CH16-TOC07",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 451,
+          "printPage": 429
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH17",
+      "chapter": 17,
+      "titleZh": "估計平均值，和預測新個體不同",
+      "titleEn": "A mean response differs from a new observation",
+      "kind": "guide",
+      "printPage": 431,
+      "pdfPage": 453,
+      "printEnd": 470,
+      "pdfEnd": 492,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "係數、平均反應與新觀測值是不同的推論對象。平均反應區間描述迴歸線位置的不確定性；新觀測的預測區間還要包含個體本身的隨機波動。",
+          "en": "Coefficients, mean responses, and future observations are distinct targets. A mean-response interval describes uncertainty in the fitted mean; a prediction interval also includes individual outcome variation."
+        },
+        {
+          "id": "explanation",
+          "zh": "區間解釋依賴抽樣設計與模型假設。Bootstrap 用重抽樣近似統計量的抽樣變異；相關資料不能隨意當作獨立列抽樣。信賴區間的涵蓋率是重複使用方法的性質，不是已固定參數的機率敘述。",
+          "en": "Interval interpretation depends on sampling design and assumptions. Bootstrap approximates sampling variation by resampling; dependent rows require a suitable design. Confidence coverage describes repeated use of a procedure."
+        }
+      ],
+      "example": {
+        "zh": "以下對獨立同分布的教學數值，示範平均數的 percentile bootstrap 區間。",
+        "en": "For toy IID values, estimate a percentile bootstrap interval for the mean."
+      },
+      "code": "import numpy as np\nrng = np.random.default_rng(42)\nx = np.array([8., 9., 10., 11., 12.])\nmeans = rng.choice(x, size=(5000, len(x)), replace=True).mean(axis=1)\nprint(np.quantile(means, [0.025, 0.975]))",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "同一模型下，新觀測預測區間通常比平均反應區間如何？",
+            "en": "Under the same model, how does a future-observation interval usually compare with a mean-response interval?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "zh": "更寬，還包含個體波動",
+              "en": "Wider; it includes outcome variation"
+            },
+            {
+              "id": "b",
+              "zh": "更窄，因為是新資料",
+              "en": "Narrower because data are new"
+            },
+            {
+              "id": "c",
+              "zh": "一定完全相同",
+              "en": "Always identical"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "預測新個體同時面對平均值估計的不確定性與觀測噪音。",
+            "en": "Predicting a new individual includes both mean-estimation uncertainty and observation noise."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "Bootstrap 平均數的典型重抽樣方式？",
+            "en": "How does a basic IID bootstrap resample?"
+          },
+          "options": [
+            {
+              "id": "b",
+              "zh": "只複製平均數",
+              "en": "Copy only the mean"
+            },
+            {
+              "id": "c",
+              "zh": "無放回取全部，重複相同結果",
+              "en": "Take all rows without replacement"
+            },
+            {
+              "id": "a",
+              "zh": "有放回抽取與原樣本相同筆數",
+              "en": "With replacement at the original sample size"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "有放回抽樣可產生不同的重抽樣資料集。",
+            "en": "Sampling with replacement generates varying resampled datasets."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH17-TOC01",
+          "level": 1,
+          "title": "Distributions: Population, Empirical, Sampling",
+          "pdfPage": 453,
+          "printPage": 431
+        },
+        {
+          "id": "LDS1-CH17-TOC02",
+          "level": 1,
+          "title": "Basics of Hypothesis Testing",
+          "pdfPage": 455,
+          "printPage": 433
+        },
+        {
+          "id": "LDS1-CH17-TOC03",
+          "level": 2,
+          "title": "Example: A Rank Test to Compare Productivity of Wikipedia Contributors",
+          "pdfPage": 457,
+          "printPage": 435
+        },
+        {
+          "id": "LDS1-CH17-TOC04",
+          "level": 2,
+          "title": "Example: A Test of Proportions for Vaccine Efficacy",
+          "pdfPage": 461,
+          "printPage": 439
+        },
+        {
+          "id": "LDS1-CH17-TOC05",
+          "level": 1,
+          "title": "Bootstrapping for Inference",
+          "pdfPage": 464,
+          "printPage": 442
+        },
+        {
+          "id": "LDS1-CH17-TOC06",
+          "level": 1,
+          "title": "Basics of Confidence Intervals",
+          "pdfPage": 468,
+          "printPage": 446
+        },
+        {
+          "id": "LDS1-CH17-TOC07",
+          "level": 1,
+          "title": "Basics of Prediction Intervals",
+          "pdfPage": 472,
+          "printPage": 450
+        },
+        {
+          "id": "LDS1-CH17-TOC08",
+          "level": 2,
+          "title": "Example: Predicting Bus Lateness",
+          "pdfPage": 472,
+          "printPage": 450
+        },
+        {
+          "id": "LDS1-CH17-TOC09",
+          "level": 2,
+          "title": "Example: Predicting Crab Size",
+          "pdfPage": 473,
+          "printPage": 451
+        },
+        {
+          "id": "LDS1-CH17-TOC10",
+          "level": 2,
+          "title": "Example: Predicting the Incremental Growth of a Crab",
+          "pdfPage": 475,
+          "printPage": 453
+        },
+        {
+          "id": "LDS1-CH17-TOC11",
+          "level": 1,
+          "title": "Probability for Inference and Prediction",
+          "pdfPage": 477,
+          "printPage": 455
+        },
+        {
+          "id": "LDS1-CH17-TOC12",
+          "level": 2,
+          "title": "Formalizing the Theory for Average Rank Statistics",
+          "pdfPage": 478,
+          "printPage": 456
+        },
+        {
+          "id": "LDS1-CH17-TOC13",
+          "level": 2,
+          "title": "General Properties of Random Variables",
+          "pdfPage": 481,
+          "printPage": 459
+        },
+        {
+          "id": "LDS1-CH17-TOC14",
+          "level": 2,
+          "title": "Probability Behind Testing and Intervals",
+          "pdfPage": 484,
+          "printPage": 462
+        },
+        {
+          "id": "LDS1-CH17-TOC15",
+          "level": 2,
+          "title": "Probability Behind Model Selection",
+          "pdfPage": 487,
+          "printPage": 465
+        },
+        {
+          "id": "LDS1-CH17-TOC16",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 489,
+          "printPage": 467
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH18",
+      "chapter": 18,
+      "titleZh": "把可量測的特徵，連到實際用途",
+      "titleEn": "Connect measurable features to intended use",
+      "kind": "guide",
+      "printPage": 471,
+      "pdfPage": 493,
+      "printEnd": 492,
+      "pdfEnd": 514,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "當直接秤重不方便，可以用身體尺寸建立體重預測模型。資料收集對象、量測方式與動物狀態決定模型適用範圍。不能只因訓練資料擬合得好，就把模型套到不同族群。",
+          "en": "When weighing is difficult, body measurements can predict weight. The sampled animals, measurement protocol, and conditions determine applicability. Strong training fit does not justify use in another population."
+        },
+        {
+          "id": "explanation",
+          "zh": "比較特徵、轉換與殘差型態，並在保留資料評估誤差。體重可能需要尺度轉換；轉換後的預測再轉回原尺度時，平均值不會簡單等於反轉換後的平均。教學例不提供任何醫療或用藥建議。",
+          "en": "Compare features, transformations, and residual patterns on held-out data. Back-transforming a predicted mean from a transformed scale need not recover the original-scale mean. The toy example has no veterinary dosing application."
+        }
+      ],
+      "example": {
+        "zh": "以合成的胸圍與體重資料示範配適流程，數值不是原書的實測資料。",
+        "en": "Fit a simple relationship using synthetic girth and weight data, not the book’s observations."
+      },
+      "code": "import numpy as np\ngirth = np.array([90., 100., 110., 120.])\nweight = np.array([110., 140., 170., 200.])  # synthetic teaching data\ncoef = np.polyfit(girth, weight, 1)\nprint('toy prediction at 105:', np.polyval(coef, 105))",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "將模型套用到訓練範圍之外，稱為什麼？",
+            "en": "What is applying a model outside its training range called?"
+          },
+          "options": [
+            {
+              "id": "b",
+              "zh": "內插，必定可靠",
+              "en": "Interpolation, always reliable"
+            },
+            {
+              "id": "c",
+              "zh": "交叉驗證，會自動修正",
+              "en": "Cross-validation, automatically corrected"
+            },
+            {
+              "id": "a",
+              "zh": "外推，需要額外審慎驗證",
+              "en": "Extrapolation, requiring extra validation"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "訓練範圍外的關係不受既有資料直接支持，應檢查適用性。",
+            "en": "Data do not directly support relationships outside the observed range."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "跨族群使用體重模型前應檢查？",
+            "en": "What matters before transferring a weight model to another population?"
+          },
+          "options": [
+            {
+              "id": "c",
+              "zh": "只增加顯示小數位",
+              "en": "More displayed decimals"
+            },
+            {
+              "id": "a",
+              "zh": "量測方式與適用範圍",
+              "en": "Measurement protocol and applicability"
+            },
+            {
+              "id": "b",
+              "zh": "只看網站介面",
+              "en": "Only interface appearance"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "資料生成條件改變，原模型誤差可能不再相同。",
+            "en": "Changed data-generating conditions can change model errors."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH18-TOC01",
+          "level": 1,
+          "title": "Donkey Study Question and Scope",
+          "pdfPage": 493,
+          "printPage": 471
+        },
+        {
+          "id": "LDS1-CH18-TOC02",
+          "level": 1,
+          "title": "Wrangling and Transforming",
+          "pdfPage": 494,
+          "printPage": 472
+        },
+        {
+          "id": "LDS1-CH18-TOC03",
+          "level": 1,
+          "title": "Exploring",
+          "pdfPage": 499,
+          "printPage": 477
+        },
+        {
+          "id": "LDS1-CH18-TOC04",
+          "level": 1,
+          "title": "Modeling a Donkey’s Weight",
+          "pdfPage": 503,
+          "printPage": 481
+        },
+        {
+          "id": "LDS1-CH18-TOC05",
+          "level": 2,
+          "title": "A Loss Function for Prescribing Anesthetics",
+          "pdfPage": 503,
+          "printPage": 481
+        },
+        {
+          "id": "LDS1-CH18-TOC06",
+          "level": 2,
+          "title": "Fitting a Simple Linear Model",
+          "pdfPage": 504,
+          "printPage": 482
+        },
+        {
+          "id": "LDS1-CH18-TOC07",
+          "level": 2,
+          "title": "Fitting a Multiple Linear Model",
+          "pdfPage": 506,
+          "printPage": 484
+        },
+        {
+          "id": "LDS1-CH18-TOC08",
+          "level": 2,
+          "title": "Bringing Qualitative Features into the Model",
+          "pdfPage": 507,
+          "printPage": 485
+        },
+        {
+          "id": "LDS1-CH18-TOC09",
+          "level": 2,
+          "title": "Model Assessment",
+          "pdfPage": 510,
+          "printPage": 488
+        },
+        {
+          "id": "LDS1-CH18-TOC10",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 512,
+          "printPage": 490
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH19",
+      "chapter": 19,
+      "titleZh": "機率與決策門檻是兩件事",
+      "titleEn": "A score is not yet a decision",
+      "kind": "guide",
+      "printPage": 495,
+      "pdfPage": 517,
+      "printEnd": 516,
+      "pdfEnd": 538,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "分類模型可以先估計類別機率，再用門檻做決策。門檻改變偽陽性與偽陰性的權衡。先確認正類定義，以及錯誤的實際代價。",
+          "en": "A classifier may estimate a class probability and then apply a decision threshold. Changing that threshold trades false positives against false negatives. Define the positive class and the costs of errors."
+        },
+        {
+          "id": "explanation",
+          "zh": "Accuracy 在類別極不平衡時可能誤導。Precision 問「預測正類中多少為真」，recall 問「真正正類中找回多少」。機率校準衡量預測機率與實際頻率的一致性，與排序能力不同。",
+          "en": "Accuracy can mislead with severe class imbalance. Precision measures correctness among predicted positives; recall measures the fraction of actual positives found. Calibration differs from ranking performance."
+        }
+      ],
+      "example": {
+        "zh": "四筆教學機率用 0.5 分類，再手算 precision 與 recall。",
+        "en": "Threshold four teaching scores at 0.5 and compute precision and recall."
+      },
+      "code": "import numpy as np\ny = np.array([1, 1, 0, 0])\np = np.array([.9, .4, .6, .1])\npred = p >= .5\ntp = np.sum(pred & (y == 1))\nprint('precision:', tp / pred.sum())\nprint('recall:', tp / np.sum(y == 1))",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "Recall 的分母是哪一群？",
+            "en": "What is the denominator of recall?"
+          },
+          "options": [
+            {
+              "id": "c",
+              "zh": "所有預測為負類",
+              "en": "All predicted negatives"
+            },
+            {
+              "id": "a",
+              "zh": "所有真正的正類",
+              "en": "All actual positives"
+            },
+            {
+              "id": "b",
+              "zh": "所有預測為正類",
+              "en": "All predicted positives"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "Recall = TP / (TP + FN)，衡量真正正類被找回的比例。",
+            "en": "Recall is TP/(TP+FN), the fraction of actual positives detected."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "Precision 的分母是哪一群？",
+            "en": "What is the denominator of precision?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "zh": "所有預測為正類",
+              "en": "All predicted positives"
+            },
+            {
+              "id": "b",
+              "zh": "所有真正的正類",
+              "en": "All actual positives"
+            },
+            {
+              "id": "c",
+              "zh": "全體負類",
+              "en": "All negatives"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "Precision = TP / (TP + FP)。",
+            "en": "Precision is TP/(TP+FP)."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH19-TOC01",
+          "level": 1,
+          "title": "Example: Wind-Damaged Trees",
+          "pdfPage": 518,
+          "printPage": 496
+        },
+        {
+          "id": "LDS1-CH19-TOC02",
+          "level": 1,
+          "title": "Modeling and Classification",
+          "pdfPage": 520,
+          "printPage": 498
+        },
+        {
+          "id": "LDS1-CH19-TOC03",
+          "level": 2,
+          "title": "A Constant Model",
+          "pdfPage": 520,
+          "printPage": 498
+        },
+        {
+          "id": "LDS1-CH19-TOC04",
+          "level": 2,
+          "title": "Examining the Relationship Between Size and Windthrow",
+          "pdfPage": 521,
+          "printPage": 499
+        },
+        {
+          "id": "LDS1-CH19-TOC05",
+          "level": 1,
+          "title": "Modeling Proportions (and Probabilities)",
+          "pdfPage": 523,
+          "printPage": 501
+        },
+        {
+          "id": "LDS1-CH19-TOC06",
+          "level": 2,
+          "title": "A Logistic Model",
+          "pdfPage": 524,
+          "printPage": 502
+        },
+        {
+          "id": "LDS1-CH19-TOC07",
+          "level": 2,
+          "title": "Log Odds",
+          "pdfPage": 526,
+          "printPage": 504
+        },
+        {
+          "id": "LDS1-CH19-TOC08",
+          "level": 2,
+          "title": "Using a Logistic Curve",
+          "pdfPage": 527,
+          "printPage": 505
+        },
+        {
+          "id": "LDS1-CH19-TOC09",
+          "level": 1,
+          "title": "A Loss Function for the Logistic Model",
+          "pdfPage": 527,
+          "printPage": 505
+        },
+        {
+          "id": "LDS1-CH19-TOC10",
+          "level": 1,
+          "title": "From Probabilities to Classification",
+          "pdfPage": 531,
+          "printPage": 509
+        },
+        {
+          "id": "LDS1-CH19-TOC11",
+          "level": 2,
+          "title": "The Confusion Matrix",
+          "pdfPage": 533,
+          "printPage": 511
+        },
+        {
+          "id": "LDS1-CH19-TOC12",
+          "level": 2,
+          "title": "Precision Versus Recall",
+          "pdfPage": 534,
+          "printPage": 512
+        },
+        {
+          "id": "LDS1-CH19-TOC13",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 537,
+          "printPage": 515
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH20",
+      "chapter": 20,
+      "titleZh": "每一步更新，都要檢查目標函數",
+      "titleEn": "Check the objective as you optimize",
+      "kind": "guide",
+      "printPage": 517,
+      "pdfPage": 539,
+      "printEnd": 528,
+      "pdfEnd": 550,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "當最佳參數無法方便地解析求得，可以沿著目標函數下降。梯度指出局部上升最快的方向，梯度下降往反方向走；學習率決定每步走多遠。",
+          "en": "When an analytic solution is inconvenient, optimize numerically. The gradient points toward local steepest ascent; gradient descent steps in the opposite direction. The learning rate sets step size."
+        },
+        {
+          "id": "explanation",
+          "zh": "學習率太大可能振盪或發散，太小會收斂緩慢。追蹤損失、梯度與停止條件，並比較不同起點。凸目標的局部最小值也是全域最小值；非凸問題不能只憑停止就宣稱找到最佳解。",
+          "en": "A large learning rate can oscillate or diverge; a tiny one can be slow. Track loss, gradients, and stopping criteria. Convex objectives have globally optimal local minima; stopping is not proof of optimality for nonconvex problems."
+        }
+      ],
+      "example": {
+        "zh": "對 f(w) = (w − 3)² 做梯度下降；解析最小值為 3，可用來核對實作。",
+        "en": "Minimize f(w)=(w−3)², whose known minimizer at three provides an implementation check."
+      },
+      "code": "w = 0.0\nrate = 0.1\nfor _ in range(100):\n    gradient = 2 * (w - 3)\n    w -= rate * gradient\nprint('w:', round(w, 6), 'loss:', (w - 3) ** 2)\nassert abs(w - 3) < 1e-6",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "梯度下降時，步長過大可能造成什麼？",
+            "en": "What can happen when a gradient-descent step size is too large?"
+          },
+          "options": [
+            {
+              "id": "a",
+              "zh": "振盪或發散",
+              "en": "Oscillation or divergence"
+            },
+            {
+              "id": "b",
+              "zh": "保證更快到達最佳解",
+              "en": "Guaranteed faster convergence"
+            },
+            {
+              "id": "c",
+              "zh": "梯度永遠變成零",
+              "en": "The gradient always becomes zero"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "更新可能越過下降區域，因此需監控損失與適當調整學習率。",
+            "en": "An update can overshoot a descent region; monitor loss and adjust step size appropriately."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "最佳化停止就代表找到全域最佳解嗎？",
+            "en": "Does optimization stopping prove global optimality?"
+          },
+          "options": [
+            {
+              "id": "b",
+              "zh": "一定是",
+              "en": "Always"
+            },
+            {
+              "id": "c",
+              "zh": "只要迭代十次就是",
+              "en": "Yes, after ten iterations"
+            },
+            {
+              "id": "a",
+              "zh": "不一定，需看目標性質與停止條件",
+              "en": "Not necessarily; inspect the objective and stopping rule"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "非凸目標尤其不能單憑停止宣稱全域最佳。",
+            "en": "For nonconvex objectives in particular, stopping does not prove global optimality."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH20-TOC01",
+          "level": 1,
+          "title": "Gradient Descent Basics",
+          "pdfPage": 540,
+          "printPage": 518
+        },
+        {
+          "id": "LDS1-CH20-TOC02",
+          "level": 1,
+          "title": "Minimizing Huber Loss",
+          "pdfPage": 542,
+          "printPage": 520
+        },
+        {
+          "id": "LDS1-CH20-TOC03",
+          "level": 1,
+          "title": "Convex and Differentiable Loss Functions",
+          "pdfPage": 544,
+          "printPage": 522
+        },
+        {
+          "id": "LDS1-CH20-TOC04",
+          "level": 1,
+          "title": "Variants of Gradient Descent",
+          "pdfPage": 546,
+          "printPage": 524
+        },
+        {
+          "id": "LDS1-CH20-TOC05",
+          "level": 2,
+          "title": "Stochastic Gradient Descent",
+          "pdfPage": 547,
+          "printPage": 525
+        },
+        {
+          "id": "LDS1-CH20-TOC06",
+          "level": 2,
+          "title": "Mini-Batch Gradient Descent",
+          "pdfPage": 547,
+          "printPage": 525
+        },
+        {
+          "id": "LDS1-CH20-TOC07",
+          "level": 2,
+          "title": "Newton’s Method",
+          "pdfPage": 548,
+          "printPage": 526
+        },
+        {
+          "id": "LDS1-CH20-TOC08",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 549,
+          "printPage": 527
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    },
+    {
+      "id": "LDS1-CH21",
+      "chapter": 21,
+      "titleZh": "分類標籤需要清楚的定義",
+      "titleEn": "Labels require an explicit definition",
+      "kind": "guide",
+      "printPage": 529,
+      "pdfPage": 551,
+      "printEnd": 550,
+      "pdfEnd": 572,
+      "blocks": [
+        {
+          "id": "intuition",
+          "zh": "新聞文字分類的標籤、來源與收集方式會深刻影響模型。模型可能只學到網站名稱、版型或發文時間，而不是內容是否可信。先說清楚標籤是誰、依什麼規則判定。",
+          "en": "Labels, sources, and collection methods shape a news classifier. It may learn publisher names, formatting, or time instead of credibility. State who assigned labels and under which criteria."
+        },
+        {
+          "id": "explanation",
+          "zh": "將相同來源、重複文章或近似文字分散到訓練與測試，會讓評估過於樂觀。依來源或時間切分可檢查不同的泛化問題。自動分類結果是模型輸出，不能取代查證；也要分析分組錯誤與資料漂移。",
+          "en": "Splitting duplicates or related sources across train and test can inflate scores. Source- or time-based splits probe different generalization targets. Model output is not fact verification; inspect subgroup errors and drift."
+        }
+      ],
+      "example": {
+        "zh": "示例檢查文章的來源群組是否完全分離，避免同來源洩漏。",
+        "en": "The toy example checks that source groups do not overlap between train and test."
+      },
+      "code": "sources = ['A', 'A', 'B', 'B', 'C', 'C']\ntrain = [i for i, source in enumerate(sources) if source != 'C']\ntest = [i for i, source in enumerate(sources) if source == 'C']\nassert set(sources[i] for i in train).isdisjoint(sources[i] for i in test)\nprint('train:', train, 'test:', test)",
+      "quiz": [
+        {
+          "id": "check-1",
+          "question": {
+            "zh": "同一文章的近似版本分散到訓練與測試，可能導致？",
+            "en": "What can near-duplicate articles in both train and test cause?"
+          },
+          "options": [
+            {
+              "id": "b",
+              "zh": "保證能辨識真偽",
+              "en": "Guaranteed fact verification"
+            },
+            {
+              "id": "c",
+              "zh": "完全消除資料漂移",
+              "en": "Elimination of data drift"
+            },
+            {
+              "id": "a",
+              "zh": "評估過於樂觀",
+              "en": "Overly optimistic evaluation"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "模型可能辨識近似文章而非學到能泛化的規律。",
+            "en": "The model may recognize near-duplicates rather than learn a generalizable pattern."
+          }
+        },
+        {
+          "id": "check-2",
+          "question": {
+            "zh": "新聞分類分數高就等於完成事實查核嗎？",
+            "en": "Does a high news-classification score constitute fact verification?"
+          },
+          "options": [
+            {
+              "id": "c",
+              "zh": "是，來源不影響結果",
+              "en": "Yes; sources never matter"
+            },
+            {
+              "id": "a",
+              "zh": "不是，須了解標籤與獨立查證",
+              "en": "No; examine labels and independent evidence"
+            },
+            {
+              "id": "b",
+              "zh": "是，標籤永遠正確",
+              "en": "Yes; labels are always correct"
+            }
+          ],
+          "correct": "a",
+          "explanation": {
+            "zh": "模型學習的是訓練標籤的模式，不能取代證據查核。",
+            "en": "A model learns patterns in training labels, not a substitute for evidence verification."
+          }
+        }
+      ],
+      "sourceSections": [
+        {
+          "id": "LDS1-CH21-TOC01",
+          "level": 1,
+          "title": "Question and Scope",
+          "pdfPage": 552,
+          "printPage": 530
+        },
+        {
+          "id": "LDS1-CH21-TOC02",
+          "level": 1,
+          "title": "Obtaining and Wrangling the Data",
+          "pdfPage": 553,
+          "printPage": 531
+        },
+        {
+          "id": "LDS1-CH21-TOC03",
+          "level": 1,
+          "title": "Exploring the Data",
+          "pdfPage": 557,
+          "printPage": 535
+        },
+        {
+          "id": "LDS1-CH21-TOC04",
+          "level": 2,
+          "title": "Exploring the Publishers",
+          "pdfPage": 558,
+          "printPage": 536
+        },
+        {
+          "id": "LDS1-CH21-TOC05",
+          "level": 2,
+          "title": "Exploring Publication Date",
+          "pdfPage": 560,
+          "printPage": 538
+        },
+        {
+          "id": "LDS1-CH21-TOC06",
+          "level": 2,
+          "title": "Exploring Words in Articles",
+          "pdfPage": 562,
+          "printPage": 540
+        },
+        {
+          "id": "LDS1-CH21-TOC07",
+          "level": 1,
+          "title": "Modeling",
+          "pdfPage": 564,
+          "printPage": 542
+        },
+        {
+          "id": "LDS1-CH21-TOC08",
+          "level": 2,
+          "title": "A Single-Word Model",
+          "pdfPage": 564,
+          "printPage": 542
+        },
+        {
+          "id": "LDS1-CH21-TOC09",
+          "level": 2,
+          "title": "Multiple-Word Model",
+          "pdfPage": 566,
+          "printPage": 544
+        },
+        {
+          "id": "LDS1-CH21-TOC10",
+          "level": 2,
+          "title": "Predicting with the tf-idf Transform",
+          "pdfPage": 568,
+          "printPage": 546
+        },
+        {
+          "id": "LDS1-CH21-TOC11",
+          "level": 1,
+          "title": "Summary",
+          "pdfPage": 571,
+          "printPage": 549
+        }
+      ],
+      "guideStatus": "independent-chapter-guide"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-01",
+      "chapter": 1,
+      "lessonId": "LDS1-CH01",
+      "titleZh": "生命週期",
+      "titleEn": "Data science lifecycle",
+      "definitionZh": "資料科學不是先挑模型。先把「想改善什麼」寫成能觀測、能比較的問題，再決定需要哪些資料。整理、探索、建模與解讀會互相回饋；發現資料不合適時，回頭修正問題是正常的一步。",
+      "definitionEn": "Data science begins with a measurable question. Collection, cleaning, exploration, modeling, and interpretation feed back into one another. Discovering unsuitable data is a reason to revisit the question."
+    },
+    {
+      "id": "concept-02",
+      "chapter": 2,
+      "lessonId": "LDS1-CH02",
+      "titleZh": "抽樣框",
+      "titleEn": "Sampling frame",
+      "definitionZh": "目標母體是你想了解的對象；抽樣框是實際可能被抽到的對象；樣本則是最後觀測到的人或物。三者不一致時，大量樣本仍可能系統性偏離目標。",
+      "definitionEn": "The target population is who you want to understand, the sampling frame is who can be selected, and the sample is who is observed. A large sample can still systematically miss the target."
+    },
+    {
+      "id": "concept-03",
+      "chapter": 3,
+      "lessonId": "LDS1-CH03",
+      "titleZh": "抽樣分布",
+      "titleEn": "Sampling distribution",
+      "definitionZh": "一個樣本只給你一次結果。模擬在明確假設下反覆產生樣本，讓你觀察統計量如何波動。先說明甕中的球代表什麼、是否放回，以及每次抽多少個。",
+      "definitionEn": "One sample gives one result. Simulation repeatedly generates samples under stated assumptions so you can inspect how a statistic varies. Specify the population, replacement rule, and sample size."
+    },
+    {
+      "id": "concept-04",
+      "chapter": 4,
+      "lessonId": "LDS1-CH04",
+      "titleZh": "損失函數",
+      "titleEn": "Loss function",
+      "definitionZh": "用一個數字代表一群資料，就是常數模型。選平均數或中位數，背後其實是在選「怎樣的誤差比較嚴重」。損失函數把這個偏好寫成可計算的規則。",
+      "definitionEn": "Representing data with one number is a constant model. Choosing a mean or median reflects which errors matter. A loss function makes that preference explicit."
+    },
+    {
+      "id": "concept-05",
+      "chapter": 5,
+      "lessonId": "LDS1-CH05",
+      "titleZh": "長度偏差",
+      "titleEn": "Length bias",
+      "definitionZh": "班距平均十 分鐘，不代表隨機到站的乘客平均等五分鐘。長班距佔據比較多的時間，因此隨機到站更容易落在長班距內。觀測單位從班次換成乘客，答案就可能改變。",
+      "definitionEn": "An average headway of ten minutes does not imply a five-minute average wait. Long gaps occupy more time, so random arrivals are more likely to land in them."
+    },
+    {
+      "id": "concept-06",
+      "chapter": 6,
+      "lessonId": "LDS1-CH06",
+      "titleZh": "合併基數",
+      "titleEn": "Join cardinality",
+      "definitionZh": "DataFrame 同時有欄位名稱、列標籤與資料型別。loc 依標籤，iloc 依位置。篩選、群組彙總與合併之前，先確認每列的觀測單位與鍵是否唯一。",
+      "definitionEn": "A DataFrame has named columns, row labels, and data types. loc selects labels; iloc selects positions. Before filtering, grouping, or merging, identify the observational unit and key uniqueness."
+    },
+    {
+      "id": "concept-07",
+      "chapter": 7,
+      "lessonId": "LDS1-CH07",
+      "titleZh": "群組彙總",
+      "titleEn": "Group aggregation",
+      "definitionZh": "SQL 用宣告式查詢描述想要的結果。SELECT 決定欄位，WHERE 篩選原始列，GROUP BY 建立群組，HAVING 篩選群組結果。輸出若需要順序，必須明確寫 ORDER BY。",
+      "definitionEn": "SQL declaratively describes the desired result. SELECT chooses columns, WHERE filters rows, GROUP BY forms groups, and HAVING filters aggregated groups. Use ORDER BY when order matters."
+    },
+    {
+      "id": "concept-08",
+      "chapter": 8,
+      "lessonId": "LDS1-CH08",
+      "titleZh": "資料結構",
+      "titleEn": "Data structure",
+      "definitionZh": "讀檔前先了解編碼、分隔符號、欄名、資料型別、缺值符號與壓縮方式。逗號可能出現在引號內；直接用字串 split 切 CSV，容易破壞欄位。",
+      "definitionEn": "Before reading a file, inspect encoding, delimiters, headers, types, missing-value markers, and compression. Quoted CSV fields can contain commas, so plain string splitting is unsafe."
+    },
+    {
+      "id": "concept-09",
+      "chapter": 9,
+      "lessonId": "LDS1-CH09",
+      "titleZh": "觀測單位",
+      "titleEn": "Observational unit",
+      "definitionZh": "缺值、重複列、型別混用與單位不一致，都需要明確處理規則。先定義合理範圍與一列的唯一鍵，再把檢查寫成程式。刪掉資料也會改變分析對象。",
+      "definitionEn": "Missingness, duplicates, mixed types, and inconsistent units require explicit rules. Define valid ranges and unique keys, then encode checks. Deleting rows changes the population being analyzed."
+    },
+    {
+      "id": "concept-10",
+      "chapter": 10,
+      "lessonId": "LDS1-CH10",
+      "titleZh": "探索式分析",
+      "titleEn": "Exploratory data analysis",
+      "definitionZh": "先檢查資料型別、範圍、缺值與單變量分布，再比較分組和變量關係。平均值相同的資料，形狀與離群程度可以差很多。探索是發現線索，也是在檢查資料生成過程。",
+      "definitionEn": "Inspect types, ranges, missingness, and univariate distributions before comparing groups and relationships. Equal means can conceal very different shapes and outliers. Exploration also checks the data-generating process."
+    },
+    {
+      "id": "concept-11",
+      "chapter": 11,
+      "lessonId": "LDS1-CH11",
+      "titleZh": "視覺編碼",
+      "titleEn": "Visual encoding",
+      "definitionZh": "比較類別可用長條圖，觀察數值分布可用直方圖，比較兩個數值可用散點圖，追蹤時間可用折線圖。圖表先回答一個問題，再決定美化細節。",
+      "definitionEn": "Use bars for categories, histograms for distributions, scatterplots for numerical pairs, and lines for time. Choose a question and comparison before styling the chart."
+    },
+    {
+      "id": "concept-12",
+      "chapter": 12,
+      "lessonId": "LDS1-CH12",
+      "titleZh": "校準",
+      "titleEn": "Calibration",
+      "definitionZh": "低成本感測器和參考儀器量到的值可能系統性不同。先對齊位置、時間、單位與有效時段，再談相關與校準。高相關不代表兩台儀器的讀值接近。",
+      "definitionEn": "Low-cost sensors and reference instruments may differ systematically. Align location, time, units, and valid operating periods before assessing calibration. High correlation does not imply agreement."
+    },
+    {
+      "id": "concept-13",
+      "chapter": 13,
+      "lessonId": "LDS1-CH13",
+      "titleZh": "詞袋",
+      "titleEn": "Bag of words",
+      "definitionZh": "文字處理從編碼、大小寫、空白與字詞邊界開始。正規表示式適合明確的字元模式，但不等於理解語意。刪除標點、停用詞或數字前，先問它們是否承載預測資訊。",
+      "definitionEn": "Text processing begins with encoding, case, whitespace, and token boundaries. Regular expressions detect character patterns, not meaning. Before removing punctuation, stop words, or numbers, ask whether they carry information."
+    },
+    {
+      "id": "concept-14",
+      "chapter": 14,
+      "lessonId": "LDS1-CH14",
+      "titleZh": "資料契約",
+      "titleEn": "Data contract",
+      "definitionZh": "從網路取得資料時，要同時理解 URL、HTTP 狀態、回應格式與欄位意義。JSON 是交換格式，不保證資料完整或正確。網站畫面、HTML 結構與 API 回應也不是同一種資料。",
+      "definitionEn": "When retrieving web data, understand the URL, HTTP status, response format, and field semantics. JSON is an interchange format, not a guarantee of correctness. HTML pages and API responses have different structures."
+    },
+    {
+      "id": "concept-15",
+      "chapter": 15,
+      "lessonId": "LDS1-CH15",
+      "titleZh": "殘差",
+      "titleEn": "Residual",
+      "definitionZh": "線性模型以特徵的加權組合預測結果；對參數線性，不代表原始變量只能呈現直線。可以加入平方項、類別指示變量與交互作用，但每項都要有可解釋的角色。",
+      "definitionEn": "A linear model predicts outcomes with a weighted combination of features. Linearity in parameters does not restrict raw variables to a straight-line relationship; squared terms, indicators, and interactions are possible."
+    },
+    {
+      "id": "concept-16",
+      "chapter": 16,
+      "lessonId": "LDS1-CH16",
+      "titleZh": "資料洩漏",
+      "titleEn": "Data leakage",
+      "definitionZh": "訓練誤差衡量模型對已看過資料的擬合；泛化誤差關心新資料。模型越複雜，訓練誤差可能越小，卻不一定有更好的新資料表現。",
+      "definitionEn": "Training error measures fit to observed data; generalization concerns new data. More complex models can reduce training error without improving future performance."
+    },
+    {
+      "id": "concept-17",
+      "chapter": 17,
+      "lessonId": "LDS1-CH17",
+      "titleZh": "預測區間",
+      "titleEn": "Prediction interval",
+      "definitionZh": "係數、平均反應與新觀測值是不同的推論對象。平均反應區間描述迴歸線位置的不確定性；新觀測的預測區間還要包含個體本身的隨機波動。",
+      "definitionEn": "Coefficients, mean responses, and future observations are distinct targets. A mean-response interval describes uncertainty in the fitted mean; a prediction interval also includes individual outcome variation."
+    },
+    {
+      "id": "concept-18",
+      "chapter": 18,
+      "lessonId": "LDS1-CH18",
+      "titleZh": "外推",
+      "titleEn": "Extrapolation",
+      "definitionZh": "當直接秤重不方便，可以用身體尺寸建立體重預測模型。資料收集對象、量測方式與動物狀態決定模型適用範圍。不能只因訓練資料擬合得好，就把模型套到不同族群。",
+      "definitionEn": "When weighing is difficult, body measurements can predict weight. The sampled animals, measurement protocol, and conditions determine applicability. Strong training fit does not justify use in another population."
+    },
+    {
+      "id": "concept-19",
+      "chapter": 19,
+      "lessonId": "LDS1-CH19",
+      "titleZh": "召回率",
+      "titleEn": "Recall",
+      "definitionZh": "分類模型可以先估計類別機率，再用門檻做決策。門檻改變偽陽性與偽陰性的權衡。先確認正類定義，以及錯誤的實際代價。",
+      "definitionEn": "A classifier may estimate a class probability and then apply a decision threshold. Changing that threshold trades false positives against false negatives. Define the positive class and the costs of errors."
+    },
+    {
+      "id": "concept-20",
+      "chapter": 20,
+      "lessonId": "LDS1-CH20",
+      "titleZh": "梯度下降",
+      "titleEn": "Gradient descent",
+      "definitionZh": "當最佳參數無法方便地解析求得，可以沿著目標函數下降。梯度指出局部上升最快的方向，梯度下降往反方向走；學習率決定每步走多遠。",
+      "definitionEn": "When an analytic solution is inconvenient, optimize numerically. The gradient points toward local steepest ascent; gradient descent steps in the opposite direction. The learning rate sets step size."
+    },
+    {
+      "id": "concept-21",
+      "chapter": 21,
+      "lessonId": "LDS1-CH21",
+      "titleZh": "群組切分",
+      "titleEn": "Group split",
+      "definitionZh": "新聞文字分類的標籤、來源與收集方式會深刻影響模型。模型可能只學到網站名稱、版型或發文時間，而不是內容是否可信。先說清楚標籤是誰、依什麼規則判定。",
+      "definitionEn": "Labels, sources, and collection methods shape a news classifier. It may learn publisher names, formatting, or time instead of credibility. State who assigned labels and under which criteria."
+    }
+  ],
+  "exercises": [],
+  "figures": []
+}

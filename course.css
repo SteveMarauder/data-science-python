@@ -1,0 +1,23 @@
+/* Course additions on top of the retained scientific publishing theme. */
+.source-gratitude{border-block:1px solid var(--line);padding:2rem 0;margin:1rem 0 3rem;max-width:unset}
+.source-gratitude>p{max-width:80ch;line-height:1.9}.source-gratitude h2{font-size:1.8rem}
+.source-deck{max-width:65ch}.book-source-card .book-author{line-height:1.7}
+.science-diagram{background:#fff;overflow:auto;border:1px solid var(--line);border-radius:3px}
+.science-diagram svg{display:block;width:100%;height:auto;min-width:450px}.compact-diagram svg{min-width:0}.compact-diagram{border:0}
+.visual-guide{margin:1.5rem 0 2rem;padding:1.2rem;border:1px solid var(--line);border-radius:3px;background:var(--paper)}
+.visual-guide-top{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:1rem}
+.visual-guide h2{font-size:1.4rem;margin:.5rem 0}.visual-guide figcaption{font-size:.875rem;line-height:1.8;color:var(--muted);margin-top:.8rem}
+.lab-controls{padding:1rem 0;display:grid;gap:.6rem}.lab-controls label{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;font-size:1rem}
+.lab-controls input{flex:1;min-width:140px;accent-color:var(--brand)}.lab-controls output{font-variant-numeric:tabular-nums;line-height:1.7}
+.python-code{background:var(--surface);color:var(--ink);padding:1.2rem;overflow:auto;max-width:100%;font-size:.9rem;line-height:1.8;border:1px solid var(--line);border-radius:3px}
+.source-outline{border:1px solid var(--line);padding:1rem;margin-top:1.8rem}.source-outline summary{cursor:pointer;font-weight:600}
+.source-outline-row{display:flex;justify-content:space-between;gap:1rem;border-top:1px solid var(--line);align-items:baseline;padding-block:.6rem;line-height:1.6}
+.source-outline-row>span{min-width:0;overflow-wrap:anywhere}.source-outline-row button{flex-shrink:0}
+.local-pdf-label{position:relative;cursor:pointer;margin:.5rem 1rem .5rem 0}.local-pdf-label input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%}
+.code-section details pre{white-space:pre-wrap;overflow-wrap:anywhere}.code-section .section-heading{gap:1rem;flex-wrap:wrap}
+.concept-dialog{max-width:1000px;width:calc(100% - 2rem);padding:1rem;background:var(--paper);color:var(--ink)}
+.concept-dialog-top{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;gap:1rem;background:var(--paper);padding:.5rem;border-bottom:1px solid var(--line)}
+#pdf-file-name{overflow-wrap:anywhere}#pdf-canvas-host:has(canvas:not([width])){min-height:0}
+.source-hero h1{font-size:clamp(2.2rem,3.3vw,3.7rem)}.book-science{margin:1.5rem -1rem 0}.source-outline,.lesson-article,.code-section,.literal-content{min-width:0}
+@media(max-width:600px){.visual-guide{padding:.8rem}.visual-guide-top{align-items:start;flex-direction:column}.visual-guide h2{font-size:1.25rem}.visual-guide .secondary-button{font-size:.875rem}.source-hero h1{font-size:2.1rem}.book-source-card{max-width:100%}.source-outline-row{font-size:.9rem}.science-diagram::after{content:'橫向捲動圖解 / Scroll diagram';display:block;font-size:.75rem;padding:.4rem;color:#64676d}.compact-diagram::after{display:none}.lab-controls output{font-size:.875rem}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}

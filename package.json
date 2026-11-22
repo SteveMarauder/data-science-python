@@ -1,0 +1,17 @@
+{
+  "name": "data-science-python",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent bilingual Learning Data Science companion",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node scripts/verify-course.mjs",
+    "check": "node --check app.js && node --check course-visuals.js && node --check learning-path.js && node --check route-map.js && node scripts/verify-course.mjs",
+    "build": "node scripts/package-static.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
