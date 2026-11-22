@@ -1,13 +1,13 @@
 {
   "name": "data-science-python",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
-  "description": "Independent bilingual Learning Data Science companion",
+  "description": "Trilingual Learning Data Science companion with Python syntax highlighting",
   "scripts": {
     "start": "node server.mjs",
-    "test": "node scripts/verify-course.mjs",
-    "check": "node --check app.js && node --check course-visuals.js && node --check learning-path.js && node --check route-map.js && node scripts/verify-course.mjs",
+    "test": "node scripts/verify-course.mjs && node scripts/verify-language-and-code.mjs",
+    "check": "node --check app.js && node --check course-ja.js && node --check syntax-highlight.js && node --check course-visuals.js && node --check learning-path.js && node --check route-map.js && node scripts/verify-course.mjs && node scripts/verify-language-and-code.mjs",
     "build": "node scripts/package-static.mjs"
   },
   "engines": {
