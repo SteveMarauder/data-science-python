@@ -11,3 +11,6 @@ dist/
 /book/
 /assets/source/
 /private-rights-backup*/
+
+# Owner-only backend checkout; never publish book data to GitHub Pages.
+/private-study/
