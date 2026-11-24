@@ -13,7 +13,7 @@ The reference book is *Learning Data Science*, first edition (2023), Sam Lau, Jo
 
 No separate written public-translation or PDF-image permission has been obtained. Extracted chapter bodies, their Chinese translations, PDF page/formula/table images and the comprehensive extracted subsection outline have been withdrawn from the current public tree. Each guide now links to its official source chapter. No PDF or screenshot upload is needed. The book and its original assets are not covered by this project's MIT/CC BY grants. No official affiliation or endorsement is claimed.
 
-Free access, attribution and a “for study only” statement do not independently establish authorization or fair use. The current branch withdrawal does **not** erase prior Git commits, cached copies, forks or downloads; any history cleanup needs separate coordination, and GitHub may need to clear cached references. Do not republish historical book material.
+Free access, attribution and a “for study only” statement do not independently establish authorization or fair use. After explicit owner approval, main was rewritten to remove the book-bearing commit from its reachable history, while preserving earlier development commits and an offline local backup. This does **not** guarantee deletion of old commit views, platform caches, forks or downloads. Platform-side handling is separate; do not republish historical book material.
 
 ## Licenses
 
