@@ -1,4 +1,4 @@
-import {JA_UI} from './course-ja.js?v=7';
+import {JA_UI} from './course-ja.js?v=9';
 const choose=(mode,zh,en,ja)=>mode==='ja'?(ja??JA_UI[zh]??en):mode==='en'?en:mode==='both'?`${zh} / ${en}`:zh;
 export const VISUALS=[
  {id:'lifecycle',chapter:1,zh:'資料科學是一個循環',en:'Data science is a cycle'},

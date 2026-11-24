@@ -1,0 +1,34 @@
+THIRD-PARTY MATERIALS AND SOFTWARE — reviewed 2026-11-24
+
+Book reference (linked, not redistributed in the current public tree)
+Learning Data Science: Data Wrangling, Exploration, Visualization, and Modeling with Python. Sam Lau, Joseph Gonzalez and Deborah Nolan. First edition, O’Reilly Media, 2023. ISBN 9781098113001.
+Official online edition: https://learningds.org/intro.html
+Online edition license: CC BY-NC-ND 4.0 https://creativecommons.org/licenses/by-nc-nd/4.0/
+This online license is not evidence that all images/layouts in a separately supplied print PDF have the same grant. No separate written permission for publishing translations or PDF images is recorded. Extracted chapter bodies, machine translations, original page images, cropped formulas/tables, and the comprehensive extracted subsection index have been withdrawn from the current public tree. Links and brief bibliographic chapter labels remain. No author/publisher endorsement is claimed.
+
+Scientific Learning Site / Bayes Notes
+Retained user-supplied template; application source/design adapted for this course. MIT notice retained in LICENSE, copyright (c) 2026 SteveMarauder. Original template source directory was not modified. Website code remains MIT; content licenses apply separately.
+
+Marked 18.2.1 — marked.umd.js
+Copyright (c) 2018-2026 MarkedJS; (c) 2011-2018 Christopher Jeffrey.
+MIT, with the inherited Markdown BSD-style notice included in vendor/MARKED-LICENSE.txt.
+https://github.com/markedjs/marked
+Bundled file is not edited during this review.
+
+DOMPurify 3.4.18 — purify.min.js
+Copyright Cure53 and other contributors.
+Dual licensing: Apache-2.0 OR MPL-2.0; original notices in vendor/DOMPURIFY-LICENSE.txt and vendor/DOMPURIFY-LICENSE-MPL.txt.
+https://github.com/cure53/DOMPurify
+Bundled file is not edited during this review.
+
+KaTeX 0.19.1 — vendor/katex/ JavaScript, CSS, auto-render and fonts
+Copyright (c) 2013-2020 Khan Academy and other contributors. MIT; vendor/KATEX-LICENSE.txt.
+https://github.com/KaTeX/KaTeX
+KaTeX font sources: copyright (c) 2018 Khan Academy; MIT notice additionally retained in vendor/KATEX-FONTS-LICENSE.txt.
+https://github.com/KaTeX/katex-fonts
+Bundled files are not edited during this review. Ordinary interface text uses system fonts; no external font service is requested.
+
+Independent site additions
+21 trilingual concept guides, 42 original checks, 21 synthetic-data Python examples, seven independently drawn SVG concept diagrams, and a simple vector site mark/favicon. Concept examples are not copied original book figures or datasets. The AI-assisted editorial process is disclosed; no claim of author review is made. Independent teaching contributions remain CC BY 4.0 to the extent the project owner holds rights; this does not license anyone else's expression or trademarks. App code is MIT, including the local Python highlighter. See CONTENT-LICENSE.txt and LICENSE.
+
+No stock photographs, copied book cover, publisher logo, remotely embedded book figures, downloadable PDF, or real third-party dataset is included in the current public tree. PDF.js is no longer needed and has been removed from the current package. Google Translate/OpenCC were used for the withdrawn book-translation build, not as website runtime dependencies; their outputs are no longer published in the current tree. This inventory is not a grant of book translation rights.

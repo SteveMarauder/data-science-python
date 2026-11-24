@@ -1,46 +1,48 @@
 # 資料科學慢學 · Data Science Notes
 
-Independent learning companion to *Learning Data Science*, first edition (2023), by Sam Lau, Joseph Gonzalez, and Deborah Nolan, O’Reilly Media. ISBN 9781098113001.
+Free, noncommercial personal learning and project-sharing site by SteveMarauder.
 
 Website: https://stevemarauder.github.io/data-science-python/
+Sources, permissions and contact: https://stevemarauder.github.io/data-science-python/rights.html
 
-21 Chinese/English/Japanese chapter guides, 42 original concept checks, 21 downloadable Python teaching examples, 7 original diagrams (3 interactive), and an inventory of 291 source subsection headings with Japanese translations. These are focused independent chapter overviews, **not a full book translation**. Synthetic examples are distinct from the book’s actual data and results.
+21 independent Chinese/English/Japanese concept guides, 42 original checks, 21 Python examples using synthetic data, and seven independently drawn concept diagrams. Python is syntax-highlighted; language changes preserve lesson IDs and progress. These notes were produced with AI assistance and are not a professionally reviewed or endorsed edition of the source book.
 
-The Scientific Learning Site / Bayes Notes template supplies the scientific publishing design, responsive connected route, visible light/dark controls, local progress, quiz interactions, and PDF.js reader. This course uses a separate progress namespace: `learning-data-science:edition1:v1`. Existing Bayes Notes records are unaffected.
+## Publication scope after the rights review (2026-11-24)
 
-## Run locally
+The reference book is *Learning Data Science*, first edition (2023), Sam Lau, Joseph Gonzalez and Deborah Nolan, O’Reilly Media, ISBN 9781098113001. The authors’ online edition at https://learningds.org/intro.html states **CC BY-NC-ND 4.0** (https://creativecommons.org/licenses/by-nc-nd/4.0/). That grant does not authorize sharing adapted material, including translations. Its scope is not assumed to include every figure or layout from a separately supplied print PDF.
 
-Requires Node.js 22 or newer; no npm dependencies are needed for the static website.
+No separate written public-translation or PDF-image permission has been obtained. Extracted chapter bodies, their Chinese translations, PDF page/formula/table images and the comprehensive extracted subsection outline have been withdrawn from the current public tree. Each guide now links to its official source chapter. No PDF or screenshot upload is needed. The book and its original assets are not covered by this project's MIT/CC BY grants. No official affiliation or endorsement is claimed.
+
+Free access, attribution and a “for study only” statement do not independently establish authorization or fair use. The current branch withdrawal does **not** erase prior Git commits, cached copies, forks or downloads; any history cleanup needs separate coordination, and GitHub may need to clear cached references. Do not republish historical book material.
+
+## Licenses
+
+- Independent teaching contributions: CC BY 4.0; credit “Data Science Notes / 資料科學慢學 — SteveMarauder”, link the site/license, and mark changes. See CONTENT-LICENSE.txt. Existing CC BY grants remain effective; CC BY allows compliant commercial reuse even though this site itself is noncommercial.
+- Website application code / retained Scientific Learning Site (Bayes Notes) template: MIT. The immutable retained template source was not edited.
+- Marked, DOMPurify, KaTeX and KaTeX fonts: separate original licenses. See THIRD-PARTY-NOTICES.txt and vendor/. No extra noncommercial restrictions are applied to these software grants.
+- Linked book, third-party names and marks: excluded from the site's grants. This site has no ads, paid reading tiers, affiliate marketing or sponsorship placements.
+
+## Run, check and build
+
+Requires Node.js 22 or newer; no npm dependencies are needed.
 
 ```sh
 npm start
-```
-
-Open the printed localhost URL over HTTP. Do not double-click index.html. In a lesson, open Source companion and select your legally held first-edition PDF. Files are processed in browser memory and never uploaded. The supplied edition has 597 PDF pages; printed page + 22 = PDF page. Other editions may differ. Reloading requires selecting the file again.
-
-## Verify and build
-
-```sh
 npm run check
 npm run build
 ```
 
-The check validates curriculum identities, quiz answers, source ranges, route geometry, progress semantics, and teaching calculations. `dist/` contains the static application, vendor libraries, and examples. GitHub Pages can serve the repository root with `.nojekyll`.
+Open the printed localhost URL over HTTP. `dist/` contains the current static site and notices; packaging rejects excluded book assets. GitHub Pages serves the repository root with `.nojekyll`. Progress uses `learning-data-science:edition1:v1`; lesson, quiz, theme and language state is retained. Browser-local progress JSON import/export remains available. There are no accounts, analytics or answer uploads; hosting providers still process ordinary requests under their own policies.
 
-## Python examples
+Python is displayed, not executed, in the browser. To run the independent examples locally:
 
 ```sh
 python -m pip install numpy pandas matplotlib scikit-learn
 python examples/chapter_06.py
 ```
 
-Python code is displayed on the site and runs in your own environment. It is not executed by the browser. Chapter 11 writes a PNG to the current working directory. Examples use toy or synthetic data, no external API credentials or downloads.
+Chapter 11 writes a PNG to the current working directory. Examples use synthetic data and require no service credentials. Those locally installed Python packages retain their own licenses.
 
-## Sources, privacy, and license
+## Rights concerns
 
-- Authors’ online material: https://learningds.org/
-- Original book copyright is separate. No PDF or full extracted source text is included in Git or deployment.
-- Original guides, checks, examples, and diagrams: CC BY 4.0. Website/template code: MIT; bundled vendor packages retain their notices. See CONTENT-LICENSE.txt and LICENSE.
-- Progress is stored only in this browser. Export/import JSON from My learning to back it up. No analytics, account requirement, or quiz-data upload.
-
-Japanese covers all chapter guides, quizzes and explanations, concept definitions, source headings, diagrams, and navigation. Python source remains unchanged across languages. A local lexical highlighter escapes code before rendering; no third-party script requests are needed.
+Open https://github.com/SteveMarauder/data-science-python/issues/new with the affected URL, the work, rights basis and requested correction. Issues are public: do not attach private IDs or contracts. Start by requesting a private contact route if necessary. See rights.html for full notices. No rights request has been sent to the authors or publisher on the owner's behalf.

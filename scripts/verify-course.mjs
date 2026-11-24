@@ -7,7 +7,7 @@ const data=JSON.parse(await fs.readFile(new URL('../content.json',import.meta.ur
 assert.equal(data.chapters.length,21);assert.equal(data.lessons.length,21);
 const ids=new Set(data.lessons.map(l=>l.id));assert.equal(ids.size,21);
 assert.equal(data.lessons.reduce((n,l)=>n+l.quiz.length,0),42);
-assert.equal(data.lessons.reduce((n,l)=>n+l.sourceSections.length,0),291);
+assert.equal(data.lessons.reduce((n,l)=>n+l.sourceSections.length,0),0);
 assert.deepEqual(LEARNING_STAGES.flatMap(s=>s.chapters),data.chapters.map(c=>c.id));
 const sections=new Set();
 for(const c of data.chapters){assert(c.sectionIds.length);for(const id of c.sectionIds){assert(ids.has(id));assert.equal(data.lessons.find(l=>l.id===id).chapter,c.id);}}
@@ -26,4 +26,4 @@ assert.deepEqual(lossStats(36),{mean:10,median:4});assert.equal(waitingStats(5).
 for(let d=0;d<=9;d++)assert(waitingStats(d).wait>=5);
 assert.equal(classificationStats(.5).precision,.5);assert.equal(classificationStats(.5).recall,.5);assert.equal(classificationStats(1).precision,null);assert.equal(classificationStats(0).recall,1);
 for(const v of VISUALS){assert(ids.has(`LDS1-CH${String(v.chapter).padStart(2,'0')}`));assert(renderVisual(v.id,'en').includes('<svg'));}
-console.log('Verified: 21 chapters, 291 source headings, 42 bilingual checks, both route layouts, progress semantics, and teaching calculations.');
+console.log('Verified: 21 chapters, external source links, 42 bilingual checks, both route layouts, progress semantics, and teaching calculations.');

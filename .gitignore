@@ -6,3 +6,8 @@ node_modules/
 dist/
 *.pdf
 .openai/local*
+
+# Withdrawn book corpus: restore only after documented publication permission.
+/book/
+/assets/source/
+/private-rights-backup*/

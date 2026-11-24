@@ -1,5 +1,25 @@
-Source book: Learning Data Science, first edition (2023), Sam Lau, Joseph Gonzalez, Deborah Nolan. Published by O’Reilly Media. ISBN 9781098113001. Copyright remains with its respective owners. The PDF and full source text are not distributed in this repository.
+CONTENT LICENSE AND PUBLICATION SCOPE — 2026-11-24
 
-Independent teaching additions: bilingual chapter guides, synthetic-data Python examples, concept checks, and diagrams created for this website are licensed under Creative Commons Attribution 4.0 (https://creativecommons.org/licenses/by/4.0/). Attribute “Data Science Notes” and indicate modifications. These materials are not an official book translation or author-endorsed publication.
+SITE PURPOSE
+Data Science Notes / 資料科學慢學 is SteveMarauder's free, noncommercial personal learning and project-sharing site. There are no ads, paid reading tiers, affiliate links or sponsored placements. This is a statement about this site's operation, not a replacement for third-party permission and not an additional condition on existing MIT or CC BY grants.
 
-Template code: Scientific Learning Site / Bayes Notes, MIT. See LICENSE. Vendor packages retain their respective licenses in vendor/.
+INDEPENDENT TEACHING CONTRIBUTIONS
+The independently written Chinese/English/Japanese concept guides, original checks, synthetic-data Python examples and independent concept diagrams retain Creative Commons Attribution 4.0 International (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+Attribute: “Data Science Notes / 資料科學慢學 — SteveMarauder”, link https://stevemarauder.github.io/data-science-python/ and this license, retain relevant credit notices, and indicate changes. These grants apply only to rights the project owner can license. Some drafting, translation of independent notes and illustrations were AI-assisted; they were not reviewed or endorsed by the source-book authors. The license does not guarantee that every AI-assisted element attracts exclusive copyright.
+CC BY 4.0 permits commercial reuse subject to its terms. This site's noncommercial mission does not revoke the existing CC BY grant or impose a new noncommercial condition. Website application code remains MIT under LICENSE. Teaching examples are under this content grant; dependencies used to run them retain their own licenses and are not bundled here.
+
+SOURCE BOOK — EXCLUDED FROM THE ABOVE GRANT
+Learning Data Science, Sam Lau, Joseph Gonzalez and Deborah Nolan, first edition, O’Reilly Media, 2023. ISBN 9781098113001. https://learningds.org/intro.html
+The official online edition states CC BY-NC-ND 4.0: https://creativecommons.org/licenses/by-nc-nd/4.0/
+This permits compliant noncommercial sharing of the licensed unadapted material, but does not permit sharing adapted material such as translations. Exceptions under applicable law must be assessed separately. Neither credit, machine translation, free access, ownership of a PDF, nor a study-only statement establishes permission to publish full translated chapters.
+No separate written public-translation or PDF-image permission is recorded. The current public tree therefore does not distribute extracted book chapters, chapter translations, page-layout images, cropped original figures/tables/formulas, or the comprehensive copied subsection outline. Basic bibliographic/chapter references and links to the authors' official text remain. The online edition's grant is not assumed to cover a supplied print PDF or separately credited third-party figures.
+Original book rights are not relicensed by this site. No author, publisher, Google or software-project endorsement or affiliation is claimed.
+
+THIRD-PARTY COMPONENTS
+See THIRD-PARTY-NOTICES.txt and the original texts in vendor/ for Marked, DOMPurify, KaTeX and its fonts. These licenses are separate from both the content CC BY grant and the site-operation statement. No extra noncommercial restriction is applied to third-party open-source software.
+
+RIGHTS CONTACT
+Use https://github.com/SteveMarauder/data-science-python/issues/new with the affected URL/file, work and rights-holder identification, the basis for the rights claim, and the requested action. Do not include private IDs, addresses or contracts in a public issue; initially request a private contact route if needed. The maintainer will review and correct credit or withdraw material where appropriate. This process does not excuse unauthorized publication or make removal conditional on a complaint.
+
+HISTORICAL COPIES
+Withdrawal from the current branch/site is not a guarantee that prior Git commits, GitHub/CDN caches, forks or external copies have disappeared. Do not use historical book assets as evidence of permission or republish them. See rights.html for the current scope. Legal questions require case-specific professional advice.

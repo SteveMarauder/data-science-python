@@ -29,4 +29,4 @@ for(const name of ['app.js','course-visuals.js']){
 for(const v of VISUALS){assert(JA_UI[v.zh]);assert(renderVisual(v.id,'ja').includes(JA_UI[v.zh]));}
 assert(labReadout('loss','ja',36).includes('平均値 10.00'));assert(labReadout('wait','ja',5).includes('6.25'));
 const app=await read('app.js');assert(app.includes("const STORAGE_KEY='learning-data-science:edition1:v1'"));assert(app.includes('data-mode="ja"'));
-console.log('Verified Japanese coverage: 21 guides, 42 checks, 21 concepts, 291 source headings, UI and diagrams; escaped highlighting preserves all Python source.');
+console.log('Verified Japanese coverage: 21 guides, 42 checks, 21 concepts, external source links, UI and diagrams; escaped highlighting preserves all Python source.');
