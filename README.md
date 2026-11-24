@@ -46,3 +46,7 @@ Chapter 11 writes a PNG to the current working directory. Examples use synthetic
 ## Rights concerns
 
 Open https://github.com/SteveMarauder/data-science-python/issues/new with the affected URL, the work, rights basis and requested correction. Issues are public: do not attach private IDs or contracts. Start by requesting a private contact route if necessary. See rights.html for full notices. No rights request has been sent to the authors or publisher on the owner's behalf.
+
+## Personal private reader
+
+The homepage, page header, footer and chapter source sections include a visible “登入私人書房” link to https://data-science-private-notes.leonsika.chatgpt.site/. The linked Site is owner-only and requires server-side account/password authentication. The public GitHub Pages site does not store or serve the private book corpus. The ignored private-study/ checkout is local only and must never be included in public builds.
