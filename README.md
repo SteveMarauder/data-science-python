@@ -50,3 +50,5 @@ Open https://github.com/SteveMarauder/data-science-python/issues/new with the af
 ## Personal private reader
 
 The homepage, page header, footer and chapter source sections include a visible “登入私人書房” link to https://data-science-private-notes.leonsika.chatgpt.site/. The linked Site is owner-only and requires server-side account/password authentication. The public GitHub Pages site does not store or serve the private book corpus. The ignored private-study/ checkout is local only and must never be included in public builds.
+
+The primary sign-in links now say Google/Gmail and use the platform route `/signin-with-chatgpt?return_to=%2Fowner-login`. Choose “Continue with Google” at the ChatGPT login page using the existing owner account. This preserves the platform's private-site boundary and does not connect to the Gmail inbox. The private backend then issues an owner session without requesting a second book password.
